@@ -18,12 +18,12 @@ function About () {
         </div>
         <div class='row'>
             <div class="col-8">
-            <p>✨ Skills ✨</p>
-            <p>📝 UX Research 📝</p>
-            <p>💡 User Testing 💡</p>
-            <p>🎨 Design Systems 🎨</p>
-            <p>🔧 Wireframes and Prototypes 🔧</p>
-            <p>🌐 Web and UI Design 🌐</p>
+            <h2>✨ Skills ✨</h2>
+            <h3>📝 UX Research 📝</h3>
+            <h3>💡 User Testing 💡</h3>
+            <h3>🎨 Design Systems 🎨</h3>
+            <h3>🔧 Wireframes and Prototypes 🔧</h3>
+            <h3>🌐 Web and UI Design 🌐</h3>
             </div>
         </div>
         <div class='row'>

@@ -3,7 +3,7 @@ return (
     <footer>
     <div class="footer-content">
     <h1>John Ho · Des Moines, WA, USA</h1>
-    <h1 class="email">jho0000rm@gmail.com</h1>
+    <h1>jho0000rm@gmail.com</h1>
         <div class="icons">
             <a href="https://www.linkedin.com/in/jho0000/"><img src="/img/Linkedin.png" alt="LinkedIn" /></a>
             <a href="https://github.com/jho0000"><img src="/img/Github.png" alt="GitHub" /></a>

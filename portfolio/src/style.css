@@ -30,7 +30,10 @@ p {
   padding: 1rem;
 }
 
-/* Header */
+/* Navbar */
+.navbar {
+  align-content: center;
+}
 
 /* Card Styling */
 .color-1 {

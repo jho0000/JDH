@@ -42,9 +42,9 @@ function Home () {
                     <img class="home card-image" src="img/sleep&seeMockup.png" alt="sleep&see mockup"></img>
                 </div>
                 <div class="home card color-2 col-lg">
-                    <h1 class="card-title text-center">View All Projects</h1>
+                    <h1 class="card-title text-center">View More</h1>
+                    <h2 class="card-description text-center">Gallery of all my works!</h2>
                     <img class="home card-image" src="img/AllProjectsArt.png" alt="View all projects"></img>
-                    <img class="icon" src="img/RightArrow.png" alt="Right arrow"></img>
                 </div>
             </div>
         </div>

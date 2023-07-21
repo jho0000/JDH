@@ -5,11 +5,11 @@ return (
     <nav>
         <div class="navbar">
             <img src="img/JHlogo.png" alt="Logo"></img>
-            <ul>
-                <li><NavLink to='/home'><h1>Home</h1></NavLink></li>
-                <li><NavLink to='/about'><h1>About</h1></NavLink></li>
-                <li><NavLink to='/projects'><h1>Projects</h1></NavLink></li>
-                <button type="button">Resume</button> 
+            <ul class="nav justify-content-end">
+                <li><NavLink to='/home'><h2>Home</h2></NavLink></li>
+                <li><NavLink to='/about'><h2>About</h2></NavLink></li>
+                <li><NavLink to='/projects'><h2>Projects</h2></NavLink></li>
+                <button type="button"><h2>Resume</h2></button> 
             </ul>
         </div>
     </nav>

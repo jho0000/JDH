@@ -13,6 +13,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.25em;
   font-weight: bold;
+  margin:0;
   padding:1rem;
 }
 
@@ -20,6 +21,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
+  margin:0;
   padding: 1rem;
 }
 
@@ -31,8 +33,24 @@ p {
 }
 
 /* Navbar */
-.navbar {
-  align-content: center;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a > h2 {
+  margin-right: 2rem;
+}
+
+button {
+  background-color: #EB70FF;
+  border-radius: 5%;
+  border:transparent;
+  margin-right: 2rem;
+}
+
+button > h2 {
+
 }
 
 /* Card Styling */

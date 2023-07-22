@@ -38,7 +38,7 @@ a {
   color: black;
 }
 
-a > h2 {
+ul > li {
   margin-right: 5rem;
 }
 
@@ -47,10 +47,6 @@ button {
   border-radius: 5%;
   border:transparent;
   margin-right: 2rem;
-}
-
-button > h2 {
-
 }
 
 /* Card Styling */
@@ -75,14 +71,18 @@ button > h2 {
   max-width: 95%;
   max-height: 100%;
   padding:2rem;
-  align-self: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project.card-image {
   max-height: 100%;
   max-width: 100%;
   padding:2rem;
-  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon {

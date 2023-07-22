@@ -8,16 +8,10 @@ import About from './pages/About.js';
 import Projects from './pages/Projects.js';
 
 /* Project pages */
-import Moments from './pages/Moments.js';
-import Musicroom from './pages/Musicroom.js';
-import Scoolwise from './pages/Scoolwise.js';
-import sleepsee from './pages/sleepsee.js';
-import SPS from './pages/SPS.js';
+import ProjectPage from './pages/ProjectPage.js';
 
 /* Packages */
 import { Route, Routes, useParams } from 'react-router-dom';
-
-
 
 function App () {
     return (
@@ -26,7 +20,10 @@ function App () {
             <Routes>
                 <Route path="/home" element={<Home/>}> </Route>
                 <Route path="/about" element={<About/>}> </Route>
-                <Route path="/projects" element={<Projects/>}> </Route>
+                <Route path="/projects">
+                    <Route path="" element={<Projects/>}></Route>
+                    <Route path=":projectid" element={<ProjectPage/>}/>
+                </Route>
             </Routes>
             <Footer></Footer>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-function SPS () {
+function sleepsee () {
     return (
         <main>
 
@@ -8,4 +8,4 @@ function SPS () {
     )
 };
      
-export default SPS;
+export default sleepsee;

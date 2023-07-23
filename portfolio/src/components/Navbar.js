@@ -4,7 +4,7 @@ export function Navbar () {
 return (
     <nav>
         <div class="navbar">
-            <img src="img/JHlogo.png" alt="Logo"></img>
+            <img src="/img/JHlogo.png" alt="Logo"></img>
             <ul class="nav justify-content-end">
                 <li><NavLink to='/home'><h2>Home</h2></NavLink></li>
                 <li><NavLink to='/about'><h2>About</h2></NavLink></li>

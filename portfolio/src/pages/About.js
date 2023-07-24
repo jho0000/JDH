@@ -4,17 +4,17 @@ function About () {
     return (
     <div class="container">
         <div class="about row">
-            <div class='about card col-md-8 justify-content-center'>
+            <div class="about card col-md-8 justify-content-center">
                 <h1>Hello and welcome! 👋</h1>
                 <h2>I’m John Ho, an aspiring UI UX researcher in Washington fueled by visual arts and music. I love designing cool projects, and love talking to people even more! :D</h2>
                 <p>With a B.Sc. in Informatics focused on Human-Computer Interaction, I explore design and research processes to put into my projects and future works. I have experience conducting user research, creating design systems, and bridging design to developers in apps and design solutions.
                 With my love of the Internet and technology, I am inspired to promote well-being within information systems and create quality of life changes for all.</p>
             </div>
-            <div class='about card col-md-4 justify-content-center'>
+            <div class="about card col-md-4 justify-content-center">
                 <img src="img/JDH1.png" alt='Portrait'></img>
             </div>
         </div>
-        <div class='about row'>
+        <div class="about row">
             <div class="about card col-md-6 justify-content-center">
                 <img src="img/JDH2.png" alt='Portrait'></img>
             </div>

@@ -26,8 +26,8 @@ function ProjectPage () {
 
     return (
         <main>
-             <section class="page d-flex align-items-center justify-content-center">
-                <div class="container col-10">
+             <section class="col-12 page d-flex align-items-center justify-content-center">
+                <div class="container">
                     <div class="banner row color-1">
                         <div class="col-md-6 justify-content-center">
                             <h1 class="title align-items-center">{pageData.title}</h1>
@@ -39,7 +39,7 @@ function ProjectPage () {
                     </div>
                 </div>
             </section>
-            <section class="page col-6">
+            <section class="page col-7">
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
@@ -74,7 +74,7 @@ function ProjectPage () {
                 <div class="background">
                     <h1>Background</h1>
                     <p>The current state of music discovery heavily relies on algorithmic methods, which have led to users feeling restricted or isolated in their music taste. There is innate <b>gender imbalance</b> and <b>popularity biases</b> within the algorithm system, shadowing diverse artists and creating an echo chamber within recommendations. There are many pain points about the algorithm we noted from user interviews and surveys:</p>
-                    <img class="asset" src="/img/Moments/PainPointsV.png" alt="Pain Points"></img>
+                    <img class="asset" src="/img/Moments/PainPoints.png" alt="Pain Points"></img>
                     <p>These initial insights lead to our problem statement:</p>
                 </div>
                 <div class="hmw-statement">

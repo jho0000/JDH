@@ -26,15 +26,15 @@ function ProjectPage () {
 
     return (
         <main>
-             <section class="banner page d-flex align-items-center justify-content-center">
-                <div class="banner card col-10">
-                    <div class="row">
-                        <div class="card col-md-6 justify-content-center color-1 left-banner">
-                            <h1 class="title">{pageData.title}</h1>
+             <section class="page d-flex align-items-center justify-content-center">
+                <div class="container col-10">
+                    <div class="banner row color-1">
+                        <div class="col-md-6 justify-content-center">
+                            <h1 class="title align-items-center">{pageData.title}</h1>
                             <h1 class="title">{pageData.subtitle}</h1>
                         </div>
-                        <div class="card col-md-6 justify-content-center color-1 right-banner">
-                            <img src="/img/Moments/Preview.png" alt="Moments preview screens"></img>
+                        <div class="col-md-6 justify-content-center">
+                            <img class="asset" src="/img/Moments/Preview.png" alt="Moments preview screens"></img>
                         </div>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ function ProjectPage () {
                             {/* {pBreak(pageData.summary)} */}
                             <p>{pBreak(pageData.element)}</p>
                             {/* <p>For a senior capstone project, I led UX research and did UI design within a team of 4 members to develop Moments, our upcoming app that connects users through sharing and discovering music through a map interface to promote discovering new music from other people.</p><p>Moments was created to see what people are listening to around the world and expand their music taste as a result, on top of making an impact on the map by  sharing their own. Our group believes that Moments should embody the line “Real music recommendations, from real people,” letting anyone get involved in the exchange of music.</p><p>Through the support of our instructors and multiple stages of user testing and research, this is how Moments was made from the very beginning to our ongoing development.</p> */}
-                        <h1>Goals</h1>
-                        <ul>
+                        <h1 class>Goals</h1>
+                        <ul class="goals">
                             <li>Address motives and pain points in the music discovery process</li>
                             <li>Provide users autonomy to find and share music among other listeners</li>
                             <li>Practise ethical research practices and inclusive design</li>
@@ -57,28 +57,27 @@ function ProjectPage () {
                     <div class="col-md-4">
                         <h2>Members</h2>
                             <ul>
-                                <li>Hamda Hassan · Front-end Developer</li>
-                                <li>John Ho · UI Designer, UI/UX Research</li>
-                                <li>Takumi Shimada · PM, Lead UI Designer</li>
+                                <li>John Ho · UI/UX Research, UI Design </li>
+                                <li>Takumi Shimada · PM, UI Design</li>
                                 <li>Marina Wooden · Full-stack Developer</li>
+                                <li>Hamda Hassan · Front-end Developer</li>
                             </ul>
                         <h2>Timeline</h2>
                             <p>Jan 2023 - Ongoing</p>
                         <h2>Tools</h2>
-                            <p>Figma, Illustrator, DaVinci Resolve</p>
+                            <p>Figma, Illustrator, Expo Go, React Native & JS, DaVinci Resolve</p>
                         <h2>Deliverables</h2>
-                            <p><a href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Video</a></p>
-                            <p>App</p>
+                            <p><a class="link" href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Video</a></p>
+                            <p><a class="link" href="" target="_blank" rel="noopener noreferrer">App</a></p>
                     </div>
                 </div>
                 <div class="background">
                     <h1>Background</h1>
-                    <p>The current state of music discovery heavily relies on algorithmic methods, which have led to users feeling restricted or isolated in their music taste. There is innate gender imbalance and popularity biases within the algorithm system, shadowing diverse artists and creating a feedback loop within recommendations. There are many pain points about the algorithm we noted from user interviews and surveys:</p>
-                    <img class="asset" src="/img/Moments/PainPointsH.png" alt="Pain Points"></img>
+                    <p>The current state of music discovery heavily relies on algorithmic methods, which have led to users feeling restricted or isolated in their music taste. There is innate <b>gender imbalance</b> and <b>popularity biases</b> within the algorithm system, shadowing diverse artists and creating an echo chamber within recommendations. There are many pain points about the algorithm we noted from user interviews and surveys:</p>
+                    <img class="asset" src="/img/Moments/PainPointsV.png" alt="Pain Points"></img>
                     <p>These initial insights lead to our problem statement:</p>
                 </div>
                 <div class="hmw-statement">
-                    <h1>Problem Statement</h1>
                     <h1><span>How might we promote music discovery for listeners to combat restrictive recommendation algorithms?</span></h1>
                 </div>
                 <div class="research">
@@ -115,7 +114,7 @@ function ProjectPage () {
                 <div class="personas">
                     <h1>Personas</h1>
                     <p>Based on our user research, we created a few user personas that demonstrated the pain points and motivations of finding new music to listen to.</p>
-                    <img class="asset" src="/img/Moments/PersonasH.png" alt="Personas"></img>
+                    <img class="asset" src="/img/Moments/PersonasV.png" alt="Personas"></img>
                     <p>Whether it be close friends, the passionate fan, content creator, or knowledgeable musician, we envisioned Moments to let users explore both music <i>and</i> people with their music recommendations.</p>
                 </div>
                 <div class="design-process">
@@ -175,11 +174,11 @@ function ProjectPage () {
                         <li>I <b>facilitated project management</b> through organising pages upon pages of affinity maps, research insights, user validation, and compiled user research.</li>
                     </ul>
                     <p>Being involved in every stage of Moments was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project and demo video to our <a href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and now await for iOS TestFlight’s approval. Moving forward, the team is continuing discussions on the <u>app’s marketability</u>, <u>revenue strategies</u>, and <u>establishing branding</u> to commercialise our app.</p>
-                    <img class="preview" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 </div>
+                <img class="asset" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
-                    <p>Check out our app here: <a href=" https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">https://www.yourmoments.app/</a></p>
+                    <p>Check out our app here: <a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">https://www.yourmoments.app/</a></p>
                     <div className="d-flex justify-content-center video-container">
                         <iframe width="800" height="450" src="https://www.youtube.com/embed/GZN_gu3FBb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>

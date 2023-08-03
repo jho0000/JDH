@@ -19,16 +19,16 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.25em;
   font-weight: bold;
-  margin:0;
-  padding:1rem;
+  margin: 1rem;
+  padding: 0;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  margin:0;
-  padding: 1rem;
+  margin: 1rem;
+  padding: 0;
 }
 
 p {
@@ -38,13 +38,27 @@ p {
   padding: 0;
 }
 
+ul > li {
+  list-style-type: circle;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.25em;
+  margin: 0.25rem;
+}
+
+a.link {
+  color:#3366CC;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /* Navbar */
 a {
   text-decoration: none;
   color: black;
 }
 
-ul > li {
+ul.nav > li {
+  list-style-type: none;
   margin-right: 5rem;
 }
 
@@ -65,7 +79,7 @@ button {
 }
 
 .card-title {
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 
 .home.card, .project.card {
@@ -128,16 +142,12 @@ button {
 }
 
 /* Project Page */
-.card > img {
-  padding:2rem;
-}
-
-.left-banner {
-  border-radius: 10% 0% 0% 10%;
-}
-
-.right-banner {
-  border-radius: 0% 10% 10% 0%;
+.banner {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 5%;
 }
 
 section.page {
@@ -145,18 +155,13 @@ section.page {
   margin-right: auto;
 }
 
-img.asset, p.caption {
-  display: block;
-  justify-content: center;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+p.caption {
   text-align: center;
 }
 
-img.preview {
+img.asset {
   display: block;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
 }

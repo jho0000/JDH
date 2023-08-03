@@ -15,14 +15,14 @@ function Home () {
                         <div class="home card color-1 col-lg">
                             <a href="/projects/moments">
                             <h1 class="card-title text-center">Moments · UI / UX</h1>
-                            <h2 class="card-description text-center">App development for organic music recommendations</h2>
+                            <h2 class="card-description text-center">An app for organic music recommendations</h2>
                             <img class="home card-image" src="img/MomentsMockup.png" alt="Moments mockup"></img>
                             </a>
                         </div>
                         <div class="home card color-2 col-lg">
                             <a href="/projects/musicroom">
                             <h1 class="card-title text-center">Musicroom · UI / UX</h1>
-                            <h2 class="card-description text-center">Networking app for college musicians</h2>
+                            <h2 class="card-description text-center">Networking college musicians for collaboration</h2>
                             <img class="home card-image" src="img/MusicroomMockup.png" alt="Musicroom mockup"></img>
                             </a>
                         </div>
@@ -31,7 +31,7 @@ function Home () {
                         <div class="home card color-2 col-lg">
                             <a href="/projects/sps">
                             <h1 class="card-title text-center">SPS · Web Design</h1>
-                            <h2 class="card-description text-center">Making a design system for Seattle Public Schools</h2>
+                            <h2 class="card-description text-center">A design system for Seattle Public Schools</h2>
                             <img class="home card-image" src="img/SPSMockup.png" alt="SPS website mockup"></img>
                             </a>
                         </div>
@@ -47,7 +47,7 @@ function Home () {
                         <div class="home card color-1 col-lg">
                             <a href="/projects/sleep&see">
                             <h1 class="card-title text-center">sleep&see · UI / UX</h1>
-                            <h2 class="card-description text-center">Creating a sleep tracker and journal</h2>
+                            <h2 class="card-description text-center">Web-based sleep journal and tracker</h2>
                             <img class="home card-image" src="img/sleep&seeMockup.png" alt="sleep&see mockup"></img>
                             </a>
                         </div>

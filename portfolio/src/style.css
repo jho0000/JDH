@@ -132,5 +132,14 @@ button {
   padding:2rem;
 }
 
-section > div {
+.left-banner {
+  border-radius: 10% 0% 0% 10%;
+}
+
+.right-banner {
+  border-radius: 0% 10% 10% 0%;
+}
+
+section.page {
+  align-self: center;
 }

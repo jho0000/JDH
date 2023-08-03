@@ -1,31 +1,51 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import data from "./data.json"
 
 function ProjectPage () {
-    let {projectid} = useParams();
-    console.log(projectid)
+    const [pageData, setPageData] = useState() //Page data to use in the document
+    const {projectid} = useParams(); //Use URL to know what data to load
+
+    // load data based on URL given
+    useEffect(() => {
+        // look if projectId is inside data.json
+        if (projectid in data) {
+            setPageData(data[projectid])
+        } else {
+            console.log("idk redirect them") //redirect them
+        }
+    }, [projectid, data])
+
+    if(pageData === undefined) {
+        return (
+            <main></main>
+        )
+    }
+
+    console.log(pBreak(pageData.element))
+
     return (
         <main>
              <div class="banner fullscreen d-flex align-items-center justify-content-center">
                 <div class="banner card col-10">
                     <div class="row">
-                        <div class="card col-md-6 justify-content-center color-1">
-                            <h1 class="title">Moments</h1>
-                            <h1>An app for sharing and discovering music organically.</h1>
+                        <div class="card col-md-6 justify-content-center color-1 left-banner">
+                            <h1 class="title">{pageData.title}</h1>
+                            <h1 class="title">{pageData.subtitle}</h1>
                         </div>
-                        <div class="card col-md-6 justify-content-center color-1">
+                        <div class="card col-md-6 justify-content-center color-1 right-banner">
                             <img src="/img/Moments/Preview.png" alt="Moments preview screens"></img>
                         </div>
                     </div>
                 </div>
             </div>
-            <section>
+            <section class="page col-10">
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
-                            <p>For a senior capstone project, I led UX research and did UI design within a team of 4 members to develop Moments, our upcoming app that connects users through sharing and discovering music through a map interface to promote discovering new music from other people.</p>
-                            <p>Moments was created to see what people are listening to around the world and expand their music taste as a result, on top of making an impact on the map by  sharing their own. Our group believes that Moments should embody the line “Real music recommendations, from real people,” letting anyone get involved in the exchange of music.</p>
-                            <p>Through the support of our instructors and multiple stages of user testing and research, this is how Moments was made from the very beginning to our ongoing development.</p>
+                            {/* {pBreak(pageData.summary)} */}
+                            <p>{pBreak(pageData.element)}</p>
+                            {/* <p>For a senior capstone project, I led UX research and did UI design within a team of 4 members to develop Moments, our upcoming app that connects users through sharing and discovering music through a map interface to promote discovering new music from other people.</p><p>Moments was created to see what people are listening to around the world and expand their music taste as a result, on top of making an impact on the map by  sharing their own. Our group believes that Moments should embody the line “Real music recommendations, from real people,” letting anyone get involved in the exchange of music.</p><p>Through the support of our instructors and multiple stages of user testing and research, this is how Moments was made from the very beginning to our ongoing development.</p> */}
                         <h1>Goals</h1>
                         <ul>
                             <li>Address motives and pain points in the music discovery process</li>
@@ -95,9 +115,7 @@ function ProjectPage () {
                 <div class="personas">
                     <h1>Personas</h1>
                     <p>Based on our user research, we created a few user personas that demonstrated the pain points and motivations of finding new music to listen to.</p>
-                    <img src="/img/Moments/Persona1.png" alt="Persona 1"></img>
-                    <img src="/img/Moments/Persona2.png" alt="Persona 2"></img>
-                    <img src="/img/Moments/Persona3.png" alt="Persona 3"></img>
+                    <img src="/img/Moments/PersonasH.png" alt="Personas"></img>
                     <p>Whether it be close friends, the passionate fan, content creator, or knowledgeable musician, we envisioned Moments to let users explore both music <i>and</i> people with their music recommendations.</p>
                 </div>
                 <div class="design-process">
@@ -171,4 +189,41 @@ function ProjectPage () {
     )
 };
      
+function pBreak(string) {
+    // const stringSplit = string.split("<br>");
+    // return stringSplit.map((text) => {
+    //     console.log(text);
+    //     if(text.includes("<b>")) {
+    //         const boldText = string.split("<b>");
+    //         return boldText.map((bText, i) => {
+    //             if (i % 2 === 1) {
+    //                 return<b>{bText}</b>;
+    //             } else {
+    //                 return bText;
+    //             }
+    //         })
+    //     }
+    //     // (text.split(" ")).forEach((word) => {
+    //     //     if(word==="<br>") {
+                
+    //     //     } else {
+    //     //         paragraph += word + " "
+    //     //     }
+    //     // })
+    //     return(text)
+    // })
+    let blankarray = ""; 
+    if(string.includes("<b>")) {
+        const boldText = string.split("<b>");
+        blankarray = boldText.map((bText, i) => {
+            if (i % 2 === 1) {
+                return<b>{bText}</b>;
+            } else {
+                return bText;
+            }
+        })
+    }
+    console.log("blankarray", blankarray)
+}
+
 export default ProjectPage;

@@ -31,6 +31,15 @@ h2 {
   padding: 0;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 0;
+}
+
+
 p {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.25em;
@@ -57,13 +66,13 @@ a {
   color: black;
 }
 
-a.logo {
-  margin: 1rem;
+a > img.logo {
+  margin-left: 2rem;
 }
 
 ul.nav > li {
   list-style-type: none;
-  margin-right: 5rem;
+  margin-right: 2rem;
 }
 
 button {

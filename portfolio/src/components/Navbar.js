@@ -4,8 +4,8 @@ export function Navbar () {
 return (
     <nav>
         <div class="navbar">
-            <a href="/home"><img src="/img/JHlogo.png" alt="Logo"></img></a>
-            <ul class="nav justify-content-end">
+            <a class="logo" href="/home"><img src="/img/JHlogo.png" alt="Logo"></img></a>
+            <ul class="nav align-items-center">
                 <li><NavLink to='/home'><h2>Home</h2></NavLink></li>
                 <li><NavLink to='/about'><h2>About</h2></NavLink></li>
                 <li><NavLink to='/projects'><h2>Projects</h2></NavLink></li>

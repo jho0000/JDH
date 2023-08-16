@@ -32,7 +32,7 @@ function Projects () {
                     <h1 class="header text-center">UI & Web Design</h1>
                     <div class="row">
                         <div class="project card color-2  col-lg">
-                            <a href="/projects/moments">
+                            <a href="/projects/momentsUI">
                             <h2 class="card-title text-center">Moments</h2>
                             <img class="project card-image" src="img/MomentsMockup2.png" alt="Moments mockup"></img>
                             </a>

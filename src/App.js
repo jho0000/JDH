@@ -8,10 +8,15 @@ import About from './pages/About.js';
 import Projects from './pages/Projects.js';
 
 /* Project pages */
-import ProjectPage from './pages/ProjectPage.js';
+import Moments from './pages/Moments.js';
+import MomentsUI from './pages/MomentsUI.js';
+import Musicroom from './pages/Musicroom.js';
+import Scoolwise from './pages/Scoolwise.js';
+import sleepAndSee from './pages/sleepAndSee.js';
+import SPS from './pages/SPS.js';
 
 /* Packages */
-import { Route, Routes, useParams } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -38,10 +43,15 @@ function App () {
             <Routes>
                 <Route path="/home" element={<Home/>}> </Route>
                 <Route path="/about" element={<About/>}> </Route>
-                <Route path="/projects">
-                    <Route path="" element={<Projects/>}></Route>
-                    <Route path=":projectid" element={<ProjectPage/>}/>
-                </Route>
+                <Route path="/projects"> 
+                    <Route path="" element={<Projects/>} />
+                        <Route path="/projects/moments" element={<Moments/>}/>
+                        <Route path="/projects/momentsUI" element={<MomentsUI/>}/>
+                        <Route path="/projects/musicroom" element={<Musicroom/>}/>
+                        <Route path="/projects/scoolwise" element={<Scoolwise/>}/>
+                        <Route path="/projects/sleepandsee" element={<sleepAndSee/>}/>
+                        <Route path="/projects/sps" element={<SPS/>}/>
+                    </Route>
             </Routes>
             <Footer></Footer>
         </div>

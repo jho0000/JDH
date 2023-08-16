@@ -1,38 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import data from "./data.json"
+import React from "react";
 
-function ProjectPage () {
-    const [pageData, setPageData] = useState() //Page data to use in the document
-    const {projectid} = useParams(); //Use URL to know what data to load
-
-    // load data based on URL given
-    useEffect(() => {
-        // look if projectId is inside data.json
-        if (projectid in data) {
-            setPageData(data[projectid])
-        } else {
-            console.log("idk redirect them") //redirect them
-        }
-    }, [projectid, data])
-
-    if(pageData === undefined) {
-        return (
-            <main></main>
-        )
-    }
-
+function Moments() {
     return (
         <main>
-             <section class="col-12 page d-flex align-items-center justify-content-center">
+            <section class="col-12 page d-flex align-items-center justify-content-center">
                 <div class="container">
                     <div class="banner row color-1">
                         <div class="col-md-6 justify-content-center">
-                            <h1 class="title align-items-center">{pageData.title}</h1>
-                            <h1 class="title">{pageData.subtitle}</h1>
+                            <h1 class="title align-items-center">Moments</h1>
+                            <h1 class="subtitle">An app for sharing and discovering music organically.</h1>
                         </div>
                         <div class="col-md-6 justify-content-center">
-                            <img class="asset" src={pageData.bannerImage} alt={ pageData.title + " preview screens"}></img>
+                            <img class="asset" src="/img\Moments/Preview.png" alt="Moments preview screens"></img>
                         </div>
                     </div>
                 </div>
@@ -41,7 +20,8 @@ function ProjectPage () {
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
-                            {formatParagraph(pageData.summary)}
+                            <p>"For a senior capstone project, I led UX research and did UI design within a team of 4 members to develop <i>Moments</i>, our upcoming app that connects users through sharing and discovering music through a map interface to promote discovering new music from other people.
+                            <i>Moments</i> was created to see what people are listening to around the world and expand their music taste as a result, on top of making an impact on the map by sharing their own. Our group believes that <i>Moments</i> should embody the line “Real music recommendations, from real people,” letting anyone get involved in the exchange of music. Through the support of our instructors and multiple stages of user testing and research, this is how Moments was made from the very beginning to our ongoing development."</p>
                         <h1 class>Goals</h1>
                         <ul class="goals">
                             <li>Address motives and pain points in the music discovery process</li>
@@ -53,7 +33,10 @@ function ProjectPage () {
                     <div class="col-md-4">
                         <h2>Members</h2>
                             <ul>
-                            {formatList(pageData.members)}
+                                <li>John Ho · UI/UX Research, UI Design</li>
+                                <li>Takumi Shimada · PM, UI Design</li>
+                                <li>Marina Wooden · Full-stack Developer</li>
+                                <li>Hamda Hassan · Front-end Developer</li>
                             </ul>
                         <h2>Timeline</h2>
                             <p>Jan 2023 - Ongoing</p>
@@ -71,7 +54,7 @@ function ProjectPage () {
                     <p>These initial insights lead to our problem statement:</p>
                 </div>
                 <div class="hmw-statement">
-                    <h1><span>How might we promote music discovery for listeners to combat restrictive recommendation algorithms?</span></h1>
+                    <h2><span>How might we promote music discovery for listeners to combat restrictive recommendation algorithms?</span></h2>
                 </div>
                 <div class="research">
                     <h1>Research Findings</h1>
@@ -180,46 +163,5 @@ function ProjectPage () {
         </main>
     )
 };
-     
-/* Page Formating:
 
-Notes: Start with an element to write the text. Anything after the element will be written in that text
-
-</b>: Bold
-</u>: Underline
-</i>: Italic
-</p>: Normal Text
-
-*/
-
-function formatParagraph(paragraph) {
-    return paragraph.map((text) => {
-        return <p>{specialChacters(text)}</p>
-    })
-}
-
-function formatList(givenList) {
-    return givenList.map((list) => {
-        return <li>{specialChacters(list)}</li>
-    })
-}
-
-function specialChacters(text) {
-    if(text.includes("<")) {
-        const splitText = text.split("<");
-        const speicalizedText = splitText.map((editedText, i) => {
-            if(editedText.startsWith("/b>")) {
-                return <b>{editedText.replace("/b>", "")}</b>;
-            } else if(editedText.startsWith("/u>")) {
-                return <u>{editedText.replace("/u>", "")}</u>;
-            } else if(editedText.startsWith("/i>")) {
-                return <i>{editedText.replace("/i>", "")}</i>;
-            }
-            return editedText.replace("/p>", "");
-        })
-        return speicalizedText;
-    }
-    return text;
-}
-
-export default ProjectPage;
+export default Moments;

@@ -20,7 +20,8 @@ function MomentsUI() {
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
-                            <p>With my involvement in the project <i>Moments</i>, I was given the responsibility to layout a website design for branding and communicating the purpose of the app. By using Figma and basic website development, I created wireframes and prototypes with our app’s established design system for our first iteration of a website for <i>Moments</i>.</p>
+                            <p>With my involvement in the project <i>Moments</i>, I was given the responsibility to layout a website design for branding and communicating the purpose of the app.</p>
+                            <p>By using Figma and website development through React, I created wireframes and prototypes with our app’s established design system for our first iteration of a website for <i>Moments</i>.</p>
                         <h1 class>Goals</h1>
                         <ul class="goals">
                             <li>Promote the features and charm of <i>Moments</i>, a social media app made to share and discover music geographically</li>
@@ -78,7 +79,7 @@ function MomentsUI() {
                     <img class="asset" src="/img/MomentsUI/Banner.png" alt="Carousel featuring Moments' features"></img>
                     <p>After the beta release of <i>Moments</i>, the team plans the following to be attentive in promoting our branding for our app and improve general website experience with user feedback and internal testing. The primary goals of refining our website are:</p>
                     <img class="asset" src="/img/MomentsUI/Steps.png" alt="Next steps for refining the website"></img>
-                    <p>Additionally, expanding our brand visibility and refining UX of our app will let us create marketing strategies and content on other platforms such as <i>YouTube</i> and <i>Instagram</i>. We can also cross-check insights from our website traffic and data from beta testers to create user personas and foster communities to engage with through inquiries and implement feedback.</p>
+                    <p>Additionally, expanding our brand visibility and refining UX of our app will let us create marketing strategies and content on other platforms such as <i>YouTube</i> and <i>Instagram</i>. We plan to cross-check insights from our website traffic and data from beta testers to create user personas, and foster communities to engage with their inquiries and implement feedback.</p>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>

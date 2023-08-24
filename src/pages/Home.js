@@ -45,7 +45,7 @@ function Home () {
                     </div>
                     <div class="row">
                         <div class="home card color-1 col-lg">
-                            <a href="/projects/sleep&see">
+                            <a href="/projects/sleepandsee">
                             <h1 class="card-title text-center">sleep&see · UI / UX</h1>
                             <h2 class="card-description text-center">Web-based sleep journal and tracker</h2>
                             <img class="home card-image" src="img/sleep&seeMockup.png" alt="sleep&see mockup"></img>

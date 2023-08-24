@@ -12,7 +12,7 @@ import Moments from './pages/Moments.js';
 import MomentsUI from './pages/MomentsUI.js';
 import Musicroom from './pages/Musicroom.js';
 import Scoolwise from './pages/Scoolwise.js';
-import sleepAndSee from './pages/sleepAndSee.js';
+import SleepAndSee from './pages/SleepAndSee.js';
 import SPS from './pages/SPS.js';
 
 /* Packages */
@@ -49,7 +49,7 @@ function App () {
                         <Route path="/projects/momentsui" element={<MomentsUI/>}/>
                         <Route path="/projects/musicroom" element={<Musicroom/>}/>
                         <Route path="/projects/scoolwise" element={<Scoolwise/>}/>
-                        <Route path="/projects/sleepandsee" element={<sleepAndSee/>}/>
+                        <Route path="/projects/sleepandsee" element={<SleepAndSee/>}/>
                         <Route path="/projects/sps" element={<SPS/>}/>
                     </Route>
             </Routes>

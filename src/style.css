@@ -5,7 +5,19 @@ body {
 }
 
 /* Typography */
-span {
+.hmw-statement {
+  padding: 1rem;
+}
+
+.hmw-statement span.green {
+  color: #187109;
+}
+
+.hmw-statement span.blue {
+  color: #1539B8;
+}
+
+.hmw-statement span.purple {
   color: #592782;
 }
 
@@ -38,7 +50,6 @@ h3 {
   margin: 1rem;
   padding: 0;
 }
-
 
 p {
   font-family: 'Fira Sans', sans-serif;
@@ -171,7 +182,11 @@ section.page {
 }
 
 p.caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em; 
+  font-weight: bold;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 img.asset {
@@ -179,5 +194,12 @@ img.asset {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.5rem;
+  padding: 1rem 0rem 1rem;
+}
+
+img.asset-caption {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }

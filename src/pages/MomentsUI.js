@@ -2,10 +2,10 @@ import React from "react";
 
 function MomentsUI() {
     return(
-<main>
+        <main>
             <section class="col-12 page d-flex align-items-center justify-content-center">
                 <div class="container">
-                    <div class="banner row color-1">
+                    <div class="banner row color-2">
                         <div class="col-md-6 justify-content-center">
                             <h1 class="title align-items-center">Moments (UI)</h1>
                             <h1 class="subtitle">Drafting and creating a website for an app.</h1>
@@ -22,7 +22,7 @@ function MomentsUI() {
                         <h1>Project Summary</h1>
                             <p>With my involvement in the project <i>Moments</i>, I was given the responsibility to layout a website design for branding and communicating the purpose of the app.</p>
                             <p>By using Figma and website development through React, I created wireframes and prototypes with our app’s established design system for our first iteration of a website for <i>Moments</i>.</p>
-                        <h1 class>Goals</h1>
+                        <h1 class>Project Goals</h1>
                         <ul class="goals">
                             <li>Promote the features and charm of <i>Moments</i>, a social media app made to share and discover music geographically</li>
                             <li>Model a web and mobile page that is polished and accessible through following responsive design conventions</li>
@@ -34,13 +34,13 @@ function MomentsUI() {
                             <ul>
                                 <li>John Ho · UI/UX Research, UI Design</li>
                                 <li>Takumi Shimada · PM, UI Design</li>
-                                <li>Marina Wooden · Full-stack Developer</li>
-                                <li>Hamda Hassan · Front-end Developer</li>
+                                <li>Marina Wooden · Full-stack Dev</li>
+                                <li>Hamda Hassan · Front-end Dev</li>
                             </ul>
                         <h2>Timeline</h2>
                             <p>June & July 2023</p>
                         <h2>Tools</h2>
-                            <p>Figma, React Native & JS</p>
+                            <p>Figma, ReactJS, React Native</p>
                         <h2>Deliverables</h2>
                             <p><a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">Website</a></p>
                     </div>

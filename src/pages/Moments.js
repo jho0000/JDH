@@ -34,10 +34,10 @@ function Moments() {
                     <div class="col-md-4">
                         <h2>Members</h2>
                             <ul>
-                                <li>John Ho · UI/UX Research, UI Design</li>
-                                <li>Takumi Shimada · PM, UI Design</li>
-                                <li>Marina Wooden · Full-stack Dev</li>
-                                <li>Hamda Hassan · Front-end Dev</li>
+                                <li>John Ho · UI/UX Researcher and Designer</li>
+                                <li>Takumi Shimada · PM and UI Designer</li>
+                                <li>Marina Wooden · Full Stack Developer</li>
+                                <li>Hamda Hassan · Front End Developer</li>
                             </ul>
                         <h2>Timeline</h2>
                             <p>Jan 2023 - Ongoing</p>
@@ -150,14 +150,18 @@ function Moments() {
                         <li>I <b>synthesised points of interest for the team to analyse</b> for multiple iterations of Figma workflows, as well as simulated Expo Go prototypes. </li>
                         <li>I <b>facilitated project management</b> through organising pages upon pages of affinity maps, research insights, user validation, and compiled user research.</li>
                     </ul>
-                    <p>Being involved in every stage of <i>Moments</i> was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project and demo video to our <a class="link" href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and now await for iOS TestFlight’s approval. Moving forward, the team is continuing discussions on the app’s marketability, revenue strategies, and establishing branding to commercialise our app.</p>
+                    <p>Being involved in every stage of <i>Moments</i> was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project slide deck and demo video to our <a class="link" href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and now await for iOS TestFlight’s approval. Moving forward, the team is continuing discussions on the app’s marketability, revenue strategies, and establishing branding to commercialise our app.</p>
                 </div>
                 <img class="asset" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
                     <p>Check out our app here: <a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">https://www.yourmoments.app/</a></p>
-                    <div className="d-flex justify-content-center video-container">
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/GZN_gu3FBb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className="d-flex justify-content-center">
+                        <iframe width="800" height="500" src="https://www.youtube.com/embed/GZN_gu3FBb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p>Capstone presentation slidedeck:</p>
+                    <div className="d-flex justify-content-center">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTN-5t4Y2ws1YgEALB8hDDnVvPL_GYfTDKCKr9_Dcx-41NCSBrEviSq_MWNrzuHCt_BDi9DMP_5Te14/embed?start=true&loop=true&delayms=4000" frameborder="0" width="800" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                 </div>
             </section>

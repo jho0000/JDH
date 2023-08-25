@@ -20,8 +20,8 @@ function MomentsUI() {
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
-                            <p>With my involvement in the project <i>Moments</i>, I was given the responsibility to layout a website design for branding and communicating the purpose of the app.</p>
-                            <p>By using Figma and website development through React, I created wireframes and prototypes with our app’s established design system for our first iteration of a website for <i>Moments</i>.</p>
+                            <p>Through my participation in the <i>Moments</i> project, I crafted a website design to encapsulate the app's brand identity and its core mission of being a social media app for sharing music geographically.</p>
+                            <p>Leveraging Figma and fundamental web development skills, I fashioned wireframes and prototypes that adhered closely to our app's existing design system.</p>
                         <h1 class>Project Goals</h1>
                         <ul class="goals">
                             <li>Promote the features and charm of <i>Moments</i>, a social media app made to share and discover music geographically</li>
@@ -32,10 +32,10 @@ function MomentsUI() {
                     <div class="col-md-4">
                         <h2>Members</h2>
                             <ul>
-                                <li>John Ho · UI/UX Research, UI Design</li>
-                                <li>Takumi Shimada · PM, UI Design</li>
-                                <li>Marina Wooden · Full-stack Dev</li>
-                                <li>Hamda Hassan · Front-end Dev</li>
+                                <li>John Ho · UI/UX Researcher and Designer</li>
+                                <li>Takumi Shimada · PM and UI Designer</li>
+                                <li>Marina Wooden · Full Stack Developer</li>
+                                <li>Hamda Hassan · Front End Developer</li>
                             </ul>
                         <h2>Timeline</h2>
                             <p>June & July 2023</p>
@@ -44,6 +44,10 @@ function MomentsUI() {
                         <h2>Deliverables</h2>
                             <p><a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">Website</a></p>
                     </div>
+                </div>
+                <div class="background">
+                    <h1>Background</h1>
+                    <p>As app development continues for <i><a class="link" href="https://jdho-545e4.web.app/projects/moments" target="_blank" rel="noopener noreferrer">Moments</a></i>, I was given the responsibility to draft a website design layout for branding and communicating the purpose of the app.</p>
                 </div>
                 <div>
                     <h1>Drafting</h1>

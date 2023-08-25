@@ -33,11 +33,11 @@ function SleepAndSee() {
                     <div class="col-md-4">
                         <h2>Members</h2>
                             <ul>
-                                <li>John Ho · Researcher, UI/UX Design</li>
-                                <li>Claudine Dulay ·  Design</li>
-                                <li>Aaron Ho · Full-stack Dev</li>
-                                <li>Brian Ho · Full-stack Dev</li>
-                                <li>Takumi Shimada · Back-end Dev</li>
+                                <li>John Ho · Researcher and UI/UX Designer</li>
+                                <li>Claudine Dulay · UI Designer</li>
+                                <li>Aaron Ho · Full Stack Developer</li>
+                                <li>Brian Ho · Full Stack Developer</li>
+                                <li>Takumi Shimada · Back End Developer</li>
                             </ul>
                         <h2>Timeline</h2>
                             <p>Feb 2023 - March 2023</p>
@@ -178,16 +178,16 @@ function SleepAndSee() {
                 </div>
                 <div class="takeaways">
                     <h1>Takeaways and Next Steps</h1>
-                    <p>As someone involved in the design and front-end content of , I experienced the conversation-like environment between designers and developers, managing ourselves in what was doable and not doable given a month. I was responsive and observant to our group’s progress, and was looking for ways to implement feedback while main features were being developed. Our mission and priorities were set early on, which let us present a strong deliverable addressing the UN SDG of promoting good health and well-being to the public.</p>
-                    <p><i>sleep&see</i> taught me how to become an effective internal tester with the complexity of building components from scratch on a hosted server. Looking at the console log, typing invalid text fields, refreshing data and pages, it felt like <u>breaking apart a puzzle</u>, meaningfully, to reverse engineer bugs and find ways to patch them.</p>
+                    <p>As someone involved in the design and front-end content of <i>sleep&see</i>, I experienced the conversation-like environment between designers and developers, managing ourselves in what was doable and not doable given a month. I was responsive and observant to our group’s progress, and was looking for ways to implement feedback while main features were being developed. Our mission and priorities were set early on, which let us present a strong deliverable addressing the UN SDG of promoting good health and well-being to the public.</p>
+                    <p><i>sleep&see</i> taught me how to <u>become an effective internal tester</u> with the complexity of building components from scratch on a hosted server. Looking at the console log, typing invalid text fields, refreshing data and pages, it felt like breaking apart a puzzle, meaningfully, to reverse engineer bugs and find ways to patch them.</p>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
                     <p>Check out our website here: <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">https://info442-christmas.web.app</a></p>
-                    <p>Our GitHub repo for this project: <a class="link" href=" " target="_blank" rel="noopener noreferrer">GitHub</a></p>
-                    <p>Finally, a slide deck that we presented in class</p>
-                    <div className="d-flex justify-content-center video-container">
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/GZN_gu3FBb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>Our <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo</a> for this project</p> 
+                    <p> And finally, a slide deck for <i>sleep&see</i> as our MVP.</p>
+                    <div className="d-flex justify-content-center">
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQw9tH4bipPZAQcsDF8YouonUArN3mMVMD3shhMb73TeYsRSdTZ-N2GvfxebTHTDoj5-xnT-61wgqxX/embed?start=true&loop=true&delayms=4000" frameborder="0" width="1000" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                 </div>
             </section>

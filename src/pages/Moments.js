@@ -70,9 +70,9 @@ function Moments() {
                     <p>Our competitors come from three major categories: Social Media for networking, Music Streaming for listening to music, and Music Discovery for finding new music.</p>
                     <img class="asset" src="/img/Moments/Competitors.png" alt="Moments' competitors"></img>
                     <p><i>Instagram</i> and <i>TikTok</i> are platforms where music can reach global status through virality, whereas <i>Reddit</i> and <i>last.fm</i> are examples of hubs where music is discovered. And with sharing music being as easy as sending a URL link or showing a song on your phone, established social media platforms were our main competitors in users encountering music quickly.</p>
-                    <p><i>iTunes</i>, <i>Spotify</i>, and <i>YouTube Music</i> are the trilogy when it comes to streaming music. All three platforms have algorithms that select music and artists based on a mixture of listening history and popularity. Recent listening, songs that are most replayed, time spent on a playlist, liked and favorited songs, anything trending on Billboard or any music charts, it all gets compiled by the algorithm to give you <i>familiar</i> content. We saw this as a major pain point with using algorithmic suggestions to discover <i>new</i> music to enjoy.</p>
                     <img class="asset-caption" src="/img/Moments/Algorithm.png" alt="YouTube Music and Spotify algorithmic recommendations"></img>
                     <p class="caption">YouTube Music and Spotify curating recommendations based on my history</p>
+                    <p><i>iTunes</i>, <i>Spotify</i>, and <i>YouTube Music</i> are the trilogy when it comes to streaming music. All three platforms have algorithms that select music and artists based on a mixture of listening history and popularity. Recent listening, songs that are most replayed, time spent on a playlist, liked and favorited songs, anything trending on Billboard or any music charts, it all gets compiled by the algorithm to give you <i>familiar</i> content. We saw this as a major pain point with using algorithmic suggestions to discover <i>new</i> music to enjoy.</p>
                 </div>
                 <div>
                     <h2>Drawing Inspiration</h2>
@@ -146,9 +146,9 @@ function Moments() {
                     <h1>Takeaways and Next Steps</h1>
                     <p>With Moments being my biggest project to date, it has taught me so much about applicable app design and product development:</p>
                     <ul>
-                        <li>I learned how to <b>create effective survey questions and conduct user interviews</b> to gather user insights and organise them on mind maps using Miro and Figma.</li>
-                        <li>I <b>synthesised points of interest for the team to analyse</b> for multiple iterations of Figma workflows, as well as simulated Expo Go prototypes. </li>
-                        <li>I <b>facilitated project management</b> through organising pages upon pages of affinity maps, research insights, user validation, and compiled user research.</li>
+                        <li>I learned how to <b>create effective survey questions </b> and <b>conduct multiple rounds of user interviews</b> to gather user insights and organise them on mind maps using Miro and Figma.</li>
+                        <li>I <b>synthesised points of interest for team analysis</b>, then making refinements in Figma workflows, as well as simulated Expo Go prototypes. </li>
+                        <li>I <b>facilitated project management</b> through organising pages upon pages of affinity maps, research insights, user validation, and compiled user research that we gathered.</li>
                     </ul>
                     <p>Being involved in every stage of <i>Moments</i> was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project slide deck and demo video to our <a class="link" href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and now await for iOS TestFlight’s approval. Moving forward, the team is continuing discussions on the app’s marketability, revenue strategies, and establishing branding to commercialise our app.</p>
                 </div>

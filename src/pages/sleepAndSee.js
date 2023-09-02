@@ -174,18 +174,18 @@ function SleepAndSee() {
                     <p>The concept of providing an independent website to share information and advice to get better sleep resonated with everyone, and people loved hearing about the creation of our design system. Our group largely noted that people appreciated any supplementary visuals and images that added a layer of depth and visual appeal to our pages, giving us the idea to assemble defined assets to our informational pages.</p>
                     <img class="asset" src="/img/sleepandsee/Imagery.png" alt="Imagery used for sleep&see's content"></img>
                     <img class="asset" src="/img/sleepandsee/Infographics.png" alt="Infographics made for a sleep&see's resources page"></img>
-                    <p>After two months of work, our group realised that many of the suggestions, as well as the envisioned data visualisations that we initially pitched, would be out of scope for our project. As a result, we solely focused on hosting a bug-free client and server with no bugs while using our main features, mainly the calendar and notes.</p>
+                    <p>After a month of work, our group realised that many of the suggestions, as well as the envisioned data visualisations that we initially pitched, would be out of scope for our project. As a result, we solely focused on hosting a bug-free client and server with no bugs while using our main features, mainly the calendar and notes.</p>
                 </div>
                 <div class="takeaways">
                     <h1>Takeaways and Next Steps</h1>
-                    <p>As someone involved in the design and front-end content of <i>sleep&see</i>, I experienced the conversation-like environment between designers and developers, managing ourselves in what was doable and not doable given a month. I was responsive and observant to our group’s progress, and was looking for ways to implement feedback while main features were being developed. Our mission and priorities were set early on, which let us present a strong deliverable addressing the UN SDG of promoting good health and well-being to the public.</p>
+                    <p>As someone involved in the design and front-end content of <i>sleep&see</i>, I experienced the conversation-like environment between designers and developers, managing ourselves in what was doable and not doable given a month.</p>
+                    <p>I was responsive and observant to our group’s progress, and was looking for ways to implement feedback while main features were being developed. Our mission and priorities were set early on, which let us present a strong deliverable addressing the UN SDG of promoting good health and well-being to the public.</p>
                     <p><i>sleep&see</i> taught me how to <u>become an effective internal tester</u> with the complexity of building components from scratch on a hosted server. Looking at the console log, typing invalid text fields, refreshing data and pages, it felt like breaking apart a puzzle, meaningfully, to reverse engineer bugs and find ways to patch them.</p>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
-                    <p>Check out our website here: <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">https://info442-christmas.web.app</a></p>
-                    <p>Our <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo</a> for this project</p> 
-                    <p> And finally, a slide deck for <i>sleep&see</i> as our MVP.</p>
+                    <p>Check out our website <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">here</a> and its <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo</a></p> 
+                    <p> And finally, a slide deck I made for <i>sleep&see</i> as our MVP.</p>
                     <div className="d-flex justify-content-center">
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQw9tH4bipPZAQcsDF8YouonUArN3mMVMD3shhMb73TeYsRSdTZ-N2GvfxebTHTDoj5-xnT-61wgqxX/embed?start=true&loop=true&delayms=4000" frameborder="0" width="1000" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>

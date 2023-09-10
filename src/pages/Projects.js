@@ -19,9 +19,9 @@ function Projects () {
                             </a>
                         </div>
                         <div class="project card color-1 col-lg">
-                            <a href="/projects/scoolwise">
-                            <h2 class="card-title text-center">Scoolwise</h2>
-                            <img class="project card-image" src="img/ScoolwiseMockup.png" alt="Scoolwise mockup"></img>
+                            <a href="/projects/sleepandsee">
+                            <h2 class="card-title text-center">sleep&see</h2>
+                            <img class="project card-image" src="img/sleep&seeMockup.png" alt="sleep&see mockup"></img>
                             </a>
                         </div>
                     </div>
@@ -44,9 +44,9 @@ function Projects () {
                             </a>
                         </div>
                         <div class="project card color-2 col-lg">
-                            <a href="/projects/sleepandsee">
-                            <h2 class="card-title text-center">sleep&see</h2>
-                            <img class="project card-image" src="img/sleep&seeMockup.png" alt="sleep&see mockup"></img>
+                            <a href="/projects/scoolwise">
+                            <h2 class="card-title text-center">Scoolwise</h2>
+                            <img class="project card-image" src="img/ScoolwiseMockup.png" alt="Scoolwise mockup"></img>
                             </a>
                         </div>
                     </div>

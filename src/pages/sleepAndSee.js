@@ -11,12 +11,13 @@ function SleepAndSee() {
                             <h1 class="subtitle">Promoting sleep to help people become dreamers.</h1>
                         </div>
                         <div class="col-md-6 justify-content-center">
-                            <img class="asset" src="/img/MomentsUI/Preview.png" alt="Moments website preview screens"></img>
+                            <img class="asset" src="/img/sleep&seeMockup.png" alt="sleep&see mockup"></img>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="page col-7">
+            <section class="page col-8">
+            <img class="asset" src="/img/sleepandsee/Preview.png" alt="sleep&see preview"></img>
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>

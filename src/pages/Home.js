@@ -29,26 +29,26 @@ function Home () {
                     </div>
                     <div class="row">
                         <div class="home card color-2 col-lg">
-                            <a href="/projects/sps">
-                            <h1 class="card-title text-center">SPS · Web Design</h1>
-                            <h2 class="card-description text-center">A design system for Seattle Public Schools</h2>
-                            <img class="home card-image" src="img/SPSMockup.png" alt="SPS website mockup"></img>
-                            </a>
-                        </div>
-                        <div class="home card color-1 col-lg">
                             <a href="/projects/scoolwise">
-                            <h1 class="card-title text-center">Scoolwise · UX Research</h1>
+                            <h1 class="card-title text-center">Scoolwise · Web Design</h1>
                             <h2 class="card-description text-center">Equitable degree and career support for undergraduates</h2>
                             <img class="home card-image" src="img/ScoolwiseMockup.png" alt="Scoolwise mockup"></img>
                             </a>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="home card color-1 col-lg">
                             <a href="/projects/sleepandsee">
                             <h1 class="card-title text-center">sleep&see · UI / UX</h1>
                             <h2 class="card-description text-center">Web-based sleep journal and tracker</h2>
                             <img class="home card-image" src="img/sleep&seeMockup.png" alt="sleep&see mockup"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="home card color-1 col-lg">
+                            <a href="/projects/sps">
+                            <h1 class="card-title text-center">SPS · Web Design</h1>
+                            <h2 class="card-description text-center">A design system for Seattle Public Schools</h2>
+                            <img class="home card-image" src="img/SPSMockup.png" alt="SPS website mockup"></img>
                             </a>
                         </div>
                         <div class="home card color-2 col-lg">

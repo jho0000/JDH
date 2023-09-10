@@ -16,7 +16,8 @@ function Moments() {
                     </div>
                 </div>
             </section>
-            <section class="page col-7">
+            <section class="page col-8">
+            <img class="asset" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
@@ -152,7 +153,6 @@ function Moments() {
                     </ul>
                     <p>Being involved in every stage of <i>Moments</i> was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project slide deck and demo video to our <a class="link" href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and now await for iOS TestFlight’s approval. Moving forward, the team is continuing discussions on the app’s marketability, revenue strategies, and establishing branding to commercialise our app.</p>
                 </div>
-                <img class="asset" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
                     <p>Check out our app here: <a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">https://www.yourmoments.app/</a></p>

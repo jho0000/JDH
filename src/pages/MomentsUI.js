@@ -11,12 +11,13 @@ function MomentsUI() {
                             <h1 class="subtitle">Drafting and creating a website for an app.</h1>
                         </div>
                         <div class="col-md-6 justify-content-center">
-                            <img class="asset" src="/img/MomentsUI/Preview.png" alt="Moments website preview screens"></img>
+                            <img class="asset" src="/img/MomentsUI/Mockup.png" alt="Moments mockup screens"></img>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="page col-7">
+            <section class="page col-8">
+            <img class="asset" src="/img/MomentsUI/Preview.png" alt="Moments website preview"></img>
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
@@ -24,9 +25,9 @@ function MomentsUI() {
                             <p>Leveraging Figma and fundamental web development skills, I fashioned wireframes and prototypes that adhered closely to our app's existing design system.</p>
                         <h1 class>Project Goals</h1>
                         <ul class="goals">
-                            <li>Promote the features and charm of <i>Moments</i>, a social media app made to share and discover music geographically</li>
+                            <li>Promote features and branding of <i>Moments</i>, a social media app made to share and discover music geographically</li>
                             <li>Model a web and mobile page that is polished and accessible through following responsive design conventions</li>
-                            <li>Aim to increase our app’s visibility and enable gathering customer insights or inquiries</li>
+                            <li>Increase our app’s visibility and enable gathering customer insights or inquiries</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -71,9 +72,9 @@ function MomentsUI() {
                 <div>
                     <h2>Renewing the Look</h2>
                     <p>We decided to change the website layout after getting internal feedback. A major change was designing a <u>single-page</u> website to concentrate all the information about <i>Moments</i> instead of having multiple pages. It simplifies development for mobile devices while letting the images be the visual highlight for our app, leading to higher user retention and interactions with the website.</p>
-                    <img class="asset" src="/img/MomentsUI/SinglePage.gif" alt="Scrolling through updated Moments' single-page website"></img>
+                    <img class="asset-caption" src="/img/MomentsUI/SinglePage.gif" alt="Scrolling through updated Moments' single-page website"></img>
                     <p class="caption">A scroll of our updated website</p>
-                    <img class="asset" src="/img/MomentsUI/Carousel.gif" alt="Carousel featuring Moments' features"></img>
+                    <img class="asset-caption" src="/img/MomentsUI/Carousel.gif" alt="Carousel featuring Moments' features"></img>
                     <p class="caption">A carousel in place for our features page</p>
                     <p>Again, the images and content follow the colours of our design system, this time with the Roboto font for simplicity (can be subject to change).</p>
                 </div>

@@ -16,7 +16,7 @@ function Moments() {
                     </div>
                 </div>
             </section>
-            <section class="page col-8">
+            <section class="page col-7">
             <img class="asset" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 <div class="summary row">
                     <div class="col-md-8">

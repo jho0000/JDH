@@ -1,7 +1,7 @@
 /* Background */
 body {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #FFFFFF 85%, #FCD8FB 100%);
+  background: linear-gradient(to bottom, #FFFFFF 95%, #FCD8FB 100%);
 }
 
 /* Typography */
@@ -170,7 +170,7 @@ button {
 /* Project Page */
 .banner {
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 0.5rem;
   align-items: center;
   padding: 2rem;
   border-radius: 5%;

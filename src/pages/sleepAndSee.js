@@ -16,7 +16,7 @@ function SleepAndSee() {
                     </div>
                 </div>
             </section>
-            <section class="page col-8">
+            <section class="page col-7">
             <img class="asset" src="/img/sleepandsee/Preview.png" alt="sleep&see preview"></img>
                 <div class="summary row">
                     <div class="col-md-8">
@@ -41,7 +41,7 @@ function SleepAndSee() {
                                 <li>Takumi Shimada · Back End Developer</li>
                             </ul>
                         <h2>Timeline</h2>
-                            <p>Feb 2023 - March 2023</p>
+                            <p>February 2023 - March 2023</p>
                         <h2>Tools</h2>
                             <p>Figma, ReactJS, React Native</p>
                         <h2>Deliverables</h2>
@@ -60,16 +60,16 @@ function SleepAndSee() {
                     <p>With <i>sleep&see</i> planned as a resource hub and sleep tracker, we had to synthesise academic papers and sources to guide the proposed design system and key features of the website. To identify pain points of our primary stakeholders of students, we gathered key statistics regarding sleep health and habits from young adults and university students:</p>
                     <img class="asset" src="/img/sleepandsee/Statistics.png" alt="Statistics surrounding poor sleeping habits across U.S. young adults and university students"></img>
                     <p>Furthermore, sleep health and hygiene pose a formidable challenge when attempting to propose comprehensive solutions. The causes underlying the sleep crisis among young adults are as varied as the individuals themselves. These factors extend beyond academic pressures and stress symptoms, encompassing lifestyle choices like excessive screen time and high caffeine consumption, which frequently lead to insufficient sleep and irregular sleep patterns.</p>
+                    <p>This leads to our problem statement:</p>
+                    <div class="hmw-statement">
+                        <h2>How might we <span class="green">create an engaging website for college students</span> in order to <span class="blue">inform users on effective sleeping habits</span> and <span class="purple">enable better sleep health</span>?</h2>
+                    </div>
                 </div>
                 <div class="personas">
                     <h2>Personas</h2>
                     <p>Based on our preliminary research, we created two foundational user personas that demonstrated the pain points and motivations of getting resources to aid in sleep health.</p>
                     <img class="asset" src="/img/sleepandsee/Personas.png" alt="sleep&see user personas"></img>
                     <p>Improving sleep health and quality comes from better knowledge of sleep practices and habits, which gives people control over their sleep health and care. <a class="link" href="https://docs.google.com/document/d/1FJ_o1PxaBvswqFaAFB2zztBmtLEb3RNsFuUcW87-Kyk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Researching more on sleep health</a> enlightened us to share our new knowledge through our website and address many issues from different archetypes of users, letting <i>sleep&see</i> be a supplement in helping us achieve our primary UN SDG: “Ensure healthy lives and promote well-being for all at all ages.”</p>
-                    <p>This leads to our problem statement:</p>
-                </div>
-                <div class="hmw-statement">
-                    <h2>How might we <span class="green">create an engaging website for college students</span> in order to <span class="blue">inform users on effective sleeping habits</span> and <span class="purple">enable better sleep health</span>?</h2>
                 </div>
                 <div class="opportunities">
                     <h1>Opportunity Areas</h1>
@@ -185,7 +185,7 @@ function SleepAndSee() {
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
-                    <p>Check out our website <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">here</a> and its <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo</a></p> 
+                    <p>Check out our website <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">here</a> and its <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo</a>!</p> 
                     <p> And finally, a slide deck I made for <i>sleep&see</i> as our MVP.</p>
                     <div className="d-flex justify-content-center">
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQw9tH4bipPZAQcsDF8YouonUArN3mMVMD3shhMb73TeYsRSdTZ-N2GvfxebTHTDoj5-xnT-61wgqxX/embed?start=true&loop=true&delayms=4000" frameborder="0" width="1000" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

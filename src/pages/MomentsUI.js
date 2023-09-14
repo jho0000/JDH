@@ -16,7 +16,7 @@ function MomentsUI() {
                     </div>
                 </div>
             </section>
-            <section class="page col-8">
+            <section class="page col-7">
             <img class="asset" src="/img/MomentsUI/Preview.png" alt="Moments website preview"></img>
                 <div class="summary row">
                     <div class="col-md-8">
@@ -39,7 +39,7 @@ function MomentsUI() {
                                 <li>Hamda Hassan · Front End Developer</li>
                             </ul>
                         <h2>Timeline</h2>
-                            <p>June & July 2023</p>
+                            <p>June 2023 - July 2023</p>
                         <h2>Tools</h2>
                             <p>Figma, ReactJS, React Native</p>
                         <h2>Deliverables</h2>

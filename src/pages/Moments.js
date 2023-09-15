@@ -28,7 +28,7 @@ function Moments() {
                         <ul class="goals">
                             <li>Address motives and pain points in the music discovery process</li>
                             <li>Provide users autonomy to find and share music among other listeners</li>
-                            <li>Practise ethical research and inclusive design</li>
+                            <li>Conduct ethical research and practice inclusive design</li>
                             <li>Draft our app across two course quarters, and continue developing to release by end of 2023</li>
                         </ul>
                     </div>

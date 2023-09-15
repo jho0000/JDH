@@ -132,7 +132,7 @@ function Scoolwise() {
             </div>
             <div class="takeaways">
                 <h1>Takeaways</h1>
-                <p>Given the time constraints of making <i>Scoolwise</i>, we would have liked to have a larger number of survey respondents and cover more underrepresented demographics for our interviews (e.g. Black, non-binary) for further inclusivity and an comprehensive outlook of pain points. Recognising these limitations drove us to post our survey in specific online communities (e.g. subreddits) to reach underrepresented demographics, but moving forward with our research had us indicate that we did not have an ideal large enough pool of surveyees from these demographics.</p>
+                <p>Given the time constraints of making <i>Scoolwise</i>, we would have liked to have a larger number of survey respondents and cover more underrepresented demographics for our interviews (e.g. Black, non-binary) for further inclusivity and a comprehensive outlook of pain points. Recognising these limitations drove us to post our survey in specific online communities (e.g. subreddits) to reach underrepresented demographics, but moving forward with our research had us indicate that we did not have an ideal large enough pool of surveyees from these demographics.</p>
                 <p>Nevertheless, some key lessons from this project include:</p>
                 <ul>
                     <li><b>Adding clarity in survey and interview questions</b> and using definitive language on our prototype.</li>
@@ -145,9 +145,13 @@ function Scoolwise() {
             <div class="conclusion">
                 <h1>Thanks for reading!</h1>
                 <p>Check out our full report <a class="link" href="https://docs.google.com/document/d/1uzMRgFDW779csVB-afBExIdEgSxsqZgEqEwUxHVN6kE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p> 
+                <p>Our interactive <a class="link" href="https://www.figma.com/proto/eJuw7abJWeGMeNAraDNfP2/Portfolio?page-id=1364%3A1126&type=design&node-id=1364-1127&viewport=554%2C444%2C0.08&t=uNnW4shFctOiBpa8-1&scaling=scale-down&starting-point-node-id=1364%3A1127&mode=design" target="_blank" rel="noopener noreferrer">Figma prototype</a>:</p>
+                <div className="d-flex justify-content-center">
+                    <iframe src="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeJuw7abJWeGMeNAraDNfP2%2FPortfolio%3Fpage-id%3D1364%253A1126%26type%3Ddesign%26node-id%3D1364-1127%26viewport%3D554%252C444%252C0.08%26t%3DYRThHrJk5dPidGqm-1%26scaling%3Dscale-down%26starting-point-node-id%3D1364%253A1127%26mode%3Ddesign" allowfullscreen=""></iframe>
+                </div>
                 <p>Our slide deck presentation for <i>Scoolwise</i>:</p>
                 <div className="d-flex justify-content-center">
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRszBmxtpEZrVBWj9TjBaxYrRlzUUvU9QfM4t4F2lUthSEgci7HC0SoSQM9sOlz9E5aFM0VLMv1qsDf/embed?start=true&loop=true&delayms=4000" frameborder="0" width="1000" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRszBmxtpEZrVBWj9TjBaxYrRlzUUvU9QfM4t4F2lUthSEgci7HC0SoSQM9sOlz9E5aFM0VLMv1qsDf/embed?start=true&loop=true&delayms=4000" frameborder="0" width="1000" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
             </div>
             </section>

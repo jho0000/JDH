@@ -23,12 +23,12 @@ function SleepAndSee() {
                         <h1>Project Summary</h1>
                             <p>For a software development course, I was a lead researcher and UI designer in making a web application designed to be a sleep tracker and journal to promote getting proper sleep.</p>
                             <p>With an interactive calendar, notes feature, and a resources page, <i>sleep&see</i> is aimed to calculate hours of sleep and give visualisations in supplementing good sleep hygiene and quality.</p>
-                            <p>Within a group of 5 peers, <i>sleep&see</i> was our month-long project and functional MVP to practise project development to address a real-world problem.</p>
+                            <p>Within a group of 5 peers, <i>sleep&see</i> was our month-long project and functional MVP to practice project development to address a real-world problem.</p>
                         <h1 class>Project Goals</h1>
                         <ul class="goals">
                             <li>Provide an interactive software product that aligns with a <a class="link" href="https://sdgs.un.org/goals" target="_blank" rel="noopener noreferrer">UN Sustainable Development Goal</a> (SDG)</li>
                             <li>Partake in a responsive web application through research, design, and front-end development</li>
-                            <li>Understand various roles on software teams and practise effective collaborative work</li>
+                            <li>Understand various roles on software teams and practice effective collaborative work</li>
                         </ul>
                     </div>
                     <div class="col-md-4">

@@ -175,7 +175,7 @@ function SleepAndSee() {
                     <p>The concept of providing an independent website to share information and advice to get better sleep resonated with everyone, and people loved hearing about the creation of our design system. Our group largely noted that people appreciated any supplementary visuals and images that added a layer of depth and visual appeal to our pages, giving us the idea to assemble defined assets to our informational pages.</p>
                     <img class="asset" src="/img/sleepandsee/Imagery.png" alt="Imagery used for sleep&see's content"></img>
                     <img class="asset" src="/img/sleepandsee/Infographics.png" alt="Infographics made for a sleep&see's resources page"></img>
-                    <p>After a month of work, our group realised that many of the suggestions, as well as the envisioned data visualisations that we initially pitched, would be out of scope for our project. As a result, we solely focused on hosting a bug-free client and server with no bugs while using our main features, mainly the calendar and notes.</p>
+                    <p>After a month of work, our group realised that many of the suggestions, as well as the expected data visualisations that we initially pitched, would be out of scope for our project. As a result, we solely focused on hosting a bug-free client and server with no bugs while using our main features, mainly the calendar and notes.</p>
                 </div>
                 <div class="takeaways">
                     <h1>Takeaways and Next Steps</h1>

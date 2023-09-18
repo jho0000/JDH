@@ -17,7 +17,7 @@ function Scoolwise() {
                 </div>
             </section>
             <section class="page col-7">
-            <img class="asset" src="/img/Scoolwise/Preview.png" alt="Scoolwise logo preview"></img>
+            <img class="asset" src="/img/Scoolwise/Logo.png" alt="Scoolwise logo preview"></img>
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
@@ -140,7 +140,7 @@ function Scoolwise() {
                     <li><b>Aligning stakeholder values</b> from direct conversations and feedback involved in the design process.</li>
                 </ul>
                 <p><i>Scoolwise</i> demonstrated a thorough research and design journey to achieve equitable academic and career support for all undergraduate students, employing VSD design methods and methodologies. The tripartite process contributed to the web application's direction, with primary stakeholder involvement ensuring student success and catering to the diverse needs of underrepresented undergraduate students.</p>
-                <img class="asset" src="/img/Scoolwise/Preview.png" alt="Scoolwise logo preview"></img>
+                <img class="asset" src="/img/Scoolwise/Logo.png" alt="Scoolwise logo preview"></img>
             </div>
             <div class="conclusion">
                 <h1>Thanks for reading!</h1>

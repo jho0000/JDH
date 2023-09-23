@@ -87,7 +87,8 @@ function SPS() {
                         <p>Finally, the website is not fully optimised for mobile devices, shown by the navbar being squeezed and no right margin on some pages.</p>
                         <img class="asset-caption" src="/img/SPS/Audit6.png" alt="Image of SPS website on mobile device"></img>
                         <p class="caption">Home page struggles with narrow mobile viewports</p>
-                        <hr class="rounded"></hr>
+                        <img class="asset" src="/img/SPS/Homepage.gif" alt="Image of SPS website on mobile device"></img>
+                        <img class="asset" src="/img/SPS/Mobile.gif" alt="Image of SPS website on mobile device"></img>
                 </div>
             </section>
         </main>

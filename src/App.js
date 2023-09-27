@@ -41,10 +41,10 @@ function App () {
         <div>
             <Navbar></Navbar>
             <Routes>
-                <Route path="" element={<Home/>}> </Route>
+                <Route path="/" element={<Home/>}> </Route>
                 <Route path="home" element={<Home/>}> </Route>
                 <Route path="/about" element={<About/>}> </Route>
-                <Route path="/projects"> 
+                <Route path="/projects">
                     <Route path="" element={<Projects/>} />
                         <Route path="/projects/moments" element={<Moments/>}/>
                         <Route path="/projects/momentsui" element={<MomentsUI/>}/>

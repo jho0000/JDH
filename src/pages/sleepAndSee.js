@@ -8,7 +8,7 @@ function SleepAndSee() {
                     <div class="banner row color-1">
                         <div class="col-md-6 justify-content-center">
                             <h1 class="title align-items-center">sleep&see</h1>
-                            <h1 class="subtitle">Promoting sleep to help people become dreamers.</h1>
+                            <h1 class="subtitle">A web-based sleep journal and tracker for students.</h1>
                         </div>
                         <div class="col-md-6 justify-content-center">
                             <img class="asset" src="/img/sleep&seeMockup.png" alt="sleep&see mockup"></img>

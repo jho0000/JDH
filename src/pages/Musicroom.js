@@ -8,7 +8,7 @@ function Musicroom() {
                     <div class="banner row color-1">
                         <div class="col-md-6 justify-content-center">
                             <h1 class="title align-items-center">MusicRoom</h1>
-                            <h1 class="subtitle">Where collaboration creates innovation for musicians.</h1>
+                            <h1 class="subtitle">A networking app for college musicians.</h1>
                         </div>
                         <div class="col-md-6 justify-content-center">
                             <img class="asset" src="/img/Musicroom/Preview.gif" alt="GIF preview of MusicRoom"></img>

@@ -21,15 +21,15 @@ function Moments() {
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
-                            <p>For a senior capstone project, I led UX research and did UI design within a team of 4 members to develop <i>Moments</i>, our upcoming app that connects users through sharing and discovering music through a map interface to promote discovering new music from other people.</p>
-                            <p><i>Moments</i> was created to see what people are listening to around the world and expand their music taste as a result, on top of making an impact on the map by sharing their own. Our group believes that <i>Moments</i> should embody <b>real music recommendations from real people</b>, letting anyone get involved in the exchange of music.</p>
+                            <p>I led UX research and co-designed UI interfaces within a team of 4 members to develop <i>Moments</i>, the upcoming app that connects users through sharing and discovering music through a map interface to promote discovering new music from other people.</p>
+                            <p><i>Moments</i> was created to see what people are listening to around the world and expand their music taste as a result. Our group believes that <i>Moments</i> should embody <b>real song recommendations from real people</b>, letting anyone get involved in the exchange of music.</p>
                             <p>Through the support of our instructors and multiple stages of user testing and research, this is how <i>Moments</i> was made from the very beginning to our ongoing development.</p>
                         <h1 class>Project Goals</h1>
                         <ul class="goals">
                             <li>Address motives and pain points in the music discovery process</li>
                             <li>Provide users autonomy to find and share music among other listeners</li>
                             <li>Conduct ethical research and practice inclusive design</li>
-                            <li>Draft our app across two course quarters, and continue developing to release by end of 2023</li>
+                            <li>Draft our app across two fiscal quarters, and continue developing to release by end of 2023</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -46,12 +46,13 @@ function Moments() {
                             <p>Figma, Illustrator, Expo Go, ReactJS, React Native, DaVinci Resolve</p>
                         <h2>Deliverables</h2>
                             <p><a class="link" href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Video</a></p>
-                            <p><a class="link" href="" target="_blank" rel="noopener noreferrer">App</a></p>
+                            <p><a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">App</a></p>
                     </div>
                 </div>
                 <div class="background">
                     <h1>Background</h1>
-                        <p>The current state of music discovery heavily relies on algorithmic methods, which have led to users feeling restricted or isolated in their music taste. There is innate <b>gender imbalance</b> and <b>popularity biases</b> within the algorithm system, shadowing diverse artists and creating an echo chamber within recommendations. There are many pain points about the algorithm we noted from user interviews and surveys:</p>
+                        <p>The current state of music discovery heavily relies on algorithmic methods, which have led to users feeling restricted or isolated in their music taste. There is innate <b>gender imbalance</b> and <b>popularity biases</b> within the algorithm system, shadowing diverse artists and creating an echo chamber within recommendations.</p>
+                        <p>From our user interviews and surveys, these were the primary pain points regarding the recommendation algorithm:</p>
                         <img class="asset" src="/img/Moments/PainPoints.png" alt="Pain Points"></img>
                         <p>These initial insights lead to our problem statement:</p>
                 </div>
@@ -64,12 +65,13 @@ function Moments() {
                         <img class="asset" src="/img/Moments/Organic.png" alt="Organic music consumption"></img>
                         <p>From <b>28 survey respondents</b> and <b>10 interviews</b>, there was high interest in discovering new music to enjoy with the help of cross-referencing different apps (e.g. <i>Spotify</i> and <i>YouTube</i>). However, users encounter songs that they have already listened to in shuffled playlists or recommendations. We also highlighted that <u>friends and online communities</u> were a major source of music recommendations.</p>
                         <img class="asset" src="/img/Moments/Music.png" alt="Two people connected by music"></img>
-                        <p>With <u>face-to-face music recommendations</u> being a memorable and effective way to share music, intimacy and familiarity enables finding enjoyable music from someone else. These social interactions allow people to connect and express their unique music taste intimately, offering a conversation for both musicianship and personal identity. With this, personal relationships and communities fuel discussions and enjoyment in sharing music, and the positive impacts of organic music consumption foster diverse music taste as a result.</p>
+                        <p>These interpersonal interactions allow people to connect and express their unique music taste intimately, offering a conversation for both musicianship and personal identity. Personal relationships and communities fuel discussions and enjoyment in sharing music, and the positive impacts of organic music consumption foster diverse music taste as a result.</p>
                 </div>
                 <div class="analysis">
-                    <h1>Competitive Analysis</h1>
+                    <h1>Market Research</h1>
                         <p>Our competitors come from three major categories: Social Media for networking, Music Streaming for listening to music, and Music Discovery for finding new music.</p>
-                        <img class="asset" src="/img/Moments/Competitors.png" alt="Moments' competitors"></img>
+                        <img class="asset-caption" src="/img/Moments/Competitors.png" alt="Moments' competitors"></img>
+                        <p class="caption">Competitor analysis on current social media apps and music streaming platforms</p>
                         <p><i>Instagram</i> and <i>TikTok</i> are platforms where music can reach global status through virality, whereas <i>Reddit</i> and <i>last.fm</i> are examples of hubs where music is discovered. And with sharing music being as easy as sending a URL link or showing a song on your phone, established social media platforms were our main competitors in users encountering music quickly.</p>
                         <img class="asset-caption" src="/img/Moments/Algorithm.png" alt="YouTube Music and Spotify algorithmic recommendations"></img>
                         <p class="caption">YouTube Music and Spotify curating recommendations based on my history</p>
@@ -79,9 +81,9 @@ function Moments() {
                     <h2>Drawing Inspiration</h2>
                         <p>Seeing how social media plays a crucial role in connecting listeners and artists, our team examined features and successes of social media platforms to draw into our own app:</p>
                         <img class="asset" src="/img/Moments/Analysis.png" alt="Appeals to BeReal, Instagram, and Discord"></img>
-                        <p>With Discord syncing Spotify streaming to a profile’s status, and the new addition to Instagram having the option to put a song as a note, we knew other platforms were exploring interactions around music.</p>
-                        <img class="asset" src="/img/Moments/StatusH.png" alt="Song statuses on Discord and Instagram"></img>
-                        <p>This further validated the concept of <u>wanting to share music or seeing what others are listening to</u>.</p>
+                        <p>With Discord syncing Spotify streaming to a profile’s status, and the new addition to Instagram having the option to put a song as a note, we knew other platforms were exploring interactions around music. This further validated the concept of <u>wanting to share music or seeing what others are listening to.</u></p>
+                        <img class="asset-caption" src="/img/Moments/StatusH.png" alt="Song statuses on Discord and Instagram"></img>
+                        <p class="caption">Displayed song statuses on Discord and Instagram</p>
                 </div>
                 <div class="opportunities">
                     <h2>Opportunity Areas</h2>
@@ -92,7 +94,7 @@ function Moments() {
                 <div class="personas">
                     <h2>Personas</h2>
                         <p>Based on our user research, we created a few user personas that demonstrated the pain points and motivations of finding new music to listen to.</p>
-                        <img class="asset" src="/img/Moments/PersonasV.png" alt="Personas"></img>
+                        <img class="asset" src="/img/Moments/Personas.png" alt="User personas"></img>
                         <p>Whether it be close friends, the passionate fan, content creator, or knowledgeable musician, we envisioned <i>Moments</i> to let users explore both music <i>and</i> people with their music recommendations.</p>
                 </div>
                 <div class="design-process">
@@ -128,11 +130,10 @@ function Moments() {
                             <p class="caption">Editing profile and followers list</p>
                             <img class="asset-caption" src="/img/Moments/MF3.gif" alt="High-fidelity prototype GIF of dropping a Moment on the map"></img>
                             <p class="caption">Dropping a Moment on the map</p>
-                            <p>Testers explored options to make their account public or private, setting their own posts to be exclusive to followers instead of the general public.</p>
                     </div>
                     <div>
                         <h2>Making the Live App</h2>
-                            <p>I was primarily a tester for our developers to bugfix our Expo Go Simulator version of Moments. Currently, <i>Moments</i> is compatible for iOS devices so my testing can only be done on a MacBook. I documented bugs in its onboarding process, suggested styling changes (e.g. margin and spacing), and mapped out transitions between screens.</p>
+                            <p>I was primarily a tester for our developers to bugfix our Expo Go Simulator version of Moments. I documented bugs in its onboarding process, suggested styling changes (e.g. margin and spacing), and mapped out transitions between screens.</p>
                             <img class="asset-caption" src="/img/Moments/HF1.gif" alt="Home map page"></img>
                             <p class="caption">Home map page</p>
                             <img class="asset-caption" src="/img/Moments/HF2.gif" alt="Exploring someone’s Moment and profile"></img>
@@ -151,17 +152,13 @@ function Moments() {
                             <li>I <b>synthesised points of interest for team analysis</b>, then making refinements in Figma workflows, as well as simulated Expo Go prototypes. </li>
                             <li>I <b>facilitated project management</b> through organising pages upon pages of affinity maps, research insights, user validation, and compiled user research that we gathered.</li>
                         </ul>
-                        <p>Being involved in every stage of <i>Moments</i> was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project slide deck and demo video to our <a class="link" href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and now await for iOS TestFlight’s approval. Moving forward, the team is continuing discussions on the app’s marketability, revenue strategies, and establishing branding to commercialise our app.</p>
+                        <p>Being involved in every stage of <i>Moments</i> was simply fulfilling for me, being able to apply what I have learned in design methods and UI / UX courses from university. The team submitted our project slide deck and demo video to our <a class="link" href="https://ischool.uw.edu/capstone/projects/2023/moments" target="_blank" rel="noopener noreferrer">university’s capstone website</a>, and is now conducting external beta testing! Moving forward, the team is continuing discussions on the app’s marketability, revenue strategies, and establishing branding to commercialise our app.</p>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
-                        <p>Check out our app here: <a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">https://www.yourmoments.app/</a></p>
+                        <p>Check out our app's website here: <a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">https://www.yourmoments.app/</a></p>
                         <div className="d-flex justify-content-center">
                             <iframe width="800" height="500" src="https://www.youtube.com/embed/GZN_gu3FBb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                        <p>Capstone presentation slidedeck:</p>
-                        <div className="d-flex justify-content-center">
-                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTN-5t4Y2ws1YgEALB8hDDnVvPL_GYfTDKCKr9_Dcx-41NCSBrEviSq_MWNrzuHCt_BDi9DMP_5Te14/embed?start=true&loop=true&delayms=4000" frameborder="0" width="800" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                 </div>
             </section>

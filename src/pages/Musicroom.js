@@ -8,7 +8,7 @@ function Musicroom() {
                     <div class="banner row color-1">
                         <div class="col-md-6 justify-content-center">
                             <h1 class="title align-items-center">MusicRoom</h1>
-                            <h1 class="subtitle">A networking app for college musicians.</h1>
+                            <h1 class="subtitle">A networking app for collaborating college musicians.</h1>
                         </div>
                         <div class="col-md-6 justify-content-center">
                             <img class="asset" src="/img/Musicroom/Preview.gif" alt="GIF preview of MusicRoom"></img>
@@ -134,7 +134,7 @@ function Musicroom() {
                         <p>The prototype was the final deliverable for the design methods course, but our team did envision next steps if <i>MusicRoom</i> was continued:</p>
                         <img class="asset" src="/img/Musicroom/NextSteps.png" alt="Image of envisioned next steps for Musicroom"></img>
                         <p>Being an early project in my academic life, <i>MusicRoom</i> was an introductory step in my learning of design methods. The entire process of brainstorming, ideating, drafting, wireframing, all the “-ing” actions got me invested in learning how to design products on top of UI/UX research.</p>
-                        <p><i>MusicRoom</i> has served as a milestone of being the derivative project before <a class="link" href="/projects/moments" target="_blank" rel="noopener noreferrer">Moments</a>, and special thanks to Jonathan for the video editing and supplying Adobe XD assets for the project.</p>
+                        <p><i>MusicRoom</i> has served as a milestone of being the derivative project before <a class="link" href="/projects/moments" rel="noopener noreferrer">Moments</a>, and special thanks to Jonathan for the video editing and supplying Adobe XD assets for the project.</p>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>

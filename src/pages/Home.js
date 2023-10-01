@@ -21,7 +21,7 @@ function Home () {
                         </div>
                         <div class="home card color-2 col-lg">
                             <a href="/projects/musicroom">
-                            <h1 class="card-title text-center">Musicroom · UI / UX</h1>
+                            <h1 class="card-title text-center">MusicRoom · UI / UX</h1>
                             <h2 class="card-description text-center">Networking college musicians for collaboration</h2>
                             <img class="home card-image" src="img/MusicroomMockup.png" alt="Musicroom mockup"></img>
                             </a>

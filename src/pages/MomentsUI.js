@@ -48,7 +48,7 @@ function MomentsUI() {
                 </div>
                 <div class="background">
                     <h1>Background</h1>
-                    <p>As app development continues for <i><a class="link" href="https://jdho-545e4.web.app/projects/moments" target="_blank" rel="noopener noreferrer">Moments</a></i>, I was given the responsibility to draft a website design layout for branding and communicating the purpose of the app.</p>
+                    <p>As app development continues for <i><a class="link" href="/projects/moments" target="_blank" rel="noopener noreferrer">Moments</a></i>, I was given the responsibility to draft a website design layout for branding and communicating the purpose of the app.</p>
                 </div>
                 <div>
                     <h1>Drafting</h1>

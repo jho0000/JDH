@@ -14,7 +14,7 @@ function Projects () {
                         </div>
                         <div class="project card color-2 col-lg">
                             <a href="/projects/musicroom">
-                            <h2 class="card-title text-center">Musicroom</h2>
+                            <h2 class="card-title text-center">MusicRoom</h2>
                             <img class="project card-image" src="img/MusicroomMockup.png" alt="Musicroom mockup"></img>
                             </a>
                         </div>

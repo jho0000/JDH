@@ -27,35 +27,114 @@ body {
   font-weight: bold;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.25em;
-  font-weight: bold;
-  margin: 1rem;
-  padding: 0;
+@media (max-width: 799px) {
+  p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    margin: 0.75rem;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.75rem;
+    padding: 0;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0.75rem;
+    padding: 0;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em; 
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a > img.logo {
+    margin-left: 1rem;
+  }
+
+  ul.nav > li {
+    list-style-type: none;
+    margin-right: 1rem;
+    justify-content: right;
+  }
+
+  button {
+    background-color: #EB70FF;
+    border-radius: 5%;
+    border:transparent;
+    margin-right: 1rem;
+  }
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 1rem;
-  padding: 0;
-}
+@media (min-width: 800px) {
+  p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.25em;
+    margin: 1rem;
+    padding: 0;
+  }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em; 
-  font-weight: bold;
-  margin: 1rem;
-  padding: 0;
-}
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0;
+  }
 
-p {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 1.25em;
-  margin: 1rem;
-  padding: 0;
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em; 
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0;
+  }
+
+  /* Navbar */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a > img.logo {
+    margin-left: 2rem;
+  }
+
+  ul.nav > li {
+    list-style-type: none;
+    margin-right: 2rem;
+  }
+
+  button {
+    background-color: #EB70FF;
+    border-radius: 5%;
+    border:transparent;
+    margin-right: 2rem;
+  }
 }
 
 ul > li {
@@ -69,28 +148,6 @@ a.link {
   color:#3366CC;
   text-decoration: underline;
   font-weight: bold;
-}
-
-/* Navbar */
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a > img.logo {
-  margin-left: 2rem;
-}
-
-ul.nav > li {
-  list-style-type: none;
-  margin-right: 2rem;
-}
-
-button {
-  background-color: #EB70FF;
-  border-radius: 5%;
-  border:transparent;
-  margin-right: 2rem;
 }
 
 /* Card Styling */
@@ -202,9 +259,4 @@ img.asset-caption {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
-
-hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
 }

@@ -6,18 +6,17 @@ function Moments() {
             <section class="col-12 page d-flex align-items-center justify-content-center">
                 <div class="container">
                     <div class="banner row color-1">
-                        <div class="col-md-6 justify-content-center">
+                        <div class="col-md-5 justify-content-center">
                             <h1 class="title align-items-center">Moments</h1>
                             <h1 class="subtitle">An app for sharing and discovering music organically.</h1>
                         </div>
-                        <div class="col-md-6 justify-content-center">
-                            <img class="asset" src="/img/MomentsMockup.png" alt="Moments preview screens"></img>
+                        <div class="col-md-7 justify-content-center">
+                            <img class="asset" src="/img/Moments/Banner.GIF" alt="GIF of Moments preview screens"></img>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="page col-7">
-            <img class="asset" src="/img/Moments/Preview.png" alt="Moments screens"></img>
                 <div class="summary row">
                     <div class="col-md-8">
                         <h1>Project Summary</h1>
@@ -50,6 +49,7 @@ function Moments() {
                     </div>
                 </div>
                 <div class="background">
+                <img class="asset" src="/img/Moments/Logo.png" alt="Moments logo"></img>
                     <h1>Background</h1>
                         <p>The current state of music discovery heavily relies on algorithmic methods, which have led to users feeling restricted or isolated in their music taste. There is innate <b>gender imbalance</b> and <b>popularity biases</b> within the algorithm system, shadowing diverse artists and creating an echo chamber within recommendations.</p>
                         <p>From our user interviews and surveys, these were the primary pain points regarding the recommendation algorithm:</p>

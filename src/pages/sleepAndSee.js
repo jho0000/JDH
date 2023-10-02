@@ -182,13 +182,14 @@ function SleepAndSee() {
                     <p>As someone involved in the design and front-end content of <i>sleep&see</i>, I experienced the conversation-like environment between designers and developers, managing ourselves in what was doable and not doable given a month.</p>
                     <p>I was responsive and observant to our group’s progress, and was looking for ways to implement feedback while main features were being developed. Our mission and priorities were set early on, which let us present a strong deliverable addressing the UN SDG of promoting good health and well-being to the public.</p>
                     <p><i>sleep&see</i> taught me how to <u>become an effective internal tester</u> with the complexity of building components from scratch on a hosted server. Looking at the console log, typing invalid text fields, refreshing data and pages, it felt like breaking apart a puzzle, meaningfully, to reverse engineer bugs and find ways to patch them.</p>
+                    <img class="asset" src="/img/sleepandsee/Resting.png" alt="Illustrated person resting on desk"></img>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
-                    <p>Check out our website <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">here</a> and its <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo</a>!</p> 
-                    <p> And finally, a slide deck I made for <i>sleep&see</i> as our MVP.</p>
+                    <p>Check out <a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">our website</a> and its <a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub repo here</a>!</p>
+                    <p><i>sleep&see</i> presentation slide deck:</p>
                     <div className="d-flex justify-content-center">
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQw9tH4bipPZAQcsDF8YouonUArN3mMVMD3shhMb73TeYsRSdTZ-N2GvfxebTHTDoj5-xnT-61wgqxX/embed?start=true&loop=true&delayms=4000" frameborder="0" width="1000" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQw9tH4bipPZAQcsDF8YouonUArN3mMVMD3shhMb73TeYsRSdTZ-N2GvfxebTHTDoj5-xnT-61wgqxX/embed?start=true&loop=true&delayms=4000" frameborder="0" width="800" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                 </div>
             </section>

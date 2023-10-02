@@ -6,12 +6,12 @@ function Musicroom() {
 <section class="col-12 page d-flex align-items-center justify-content-center">
                 <div class="container">
                     <div class="banner row color-1">
-                        <div class="col-md-6 justify-content-center">
+                        <div class="col-md-5 justify-content-center">
                             <h1 class="title align-items-center">MusicRoom</h1>
                             <h1 class="subtitle">A networking app for collaborating college musicians.</h1>
                         </div>
-                        <div class="col-md-6 justify-content-center">
-                            <img class="asset" src="/img/Musicroom/Preview.gif" alt="GIF preview of MusicRoom"></img>
+                        <div class="col-md-7 justify-content-center">
+                            <img class="asset" src="/img/Musicroom/Preview.gif" alt="GIF preview of Musicroom"></img>
                         </div>
                     </div>
                 </div>
@@ -23,12 +23,11 @@ function Musicroom() {
                             <p><i>MusicRoom</i> is an informal networking app for college musicians seeking to connect with other musicians on campus, fostering creativity and collaboration in the music creation process.</p>
                             <p>This is a story about innovatively connecting music creatives and designing an interactive prototype to accompany it.</p>
                         <h1 class>Project Goals</h1>
-                        <ul class="goals">
-                            <li>Explore the design method process to produce an effective design solution</li>
-                            <li>Be introduced to visual design and using Figma</li>
-                            <li>Learn how to conduct preliminary user research and usability tests for insightful feedback on wireframes and prototypes</li>
-                            <li>Refine design interfaces for a finished deliverable during 1-month long sprint</li>
-                        </ul>
+                            <ul class="goals">
+                                <li>Explore the design method process to produce an effective design solution</li>
+                                <li>Conduct preliminary user research and usability tests for insightful feedback on wireframes and prototypes</li>
+                                <li>Refine design interfaces for a finished deliverable in a month-long sprint</li>
+                            </ul>
                     </div>
                     <div class="col-md-4">
                         <h2>Members</h2>
@@ -41,15 +40,16 @@ function Musicroom() {
                         <h2>Timeline</h2>
                             <p>February 2022 - March 2022</p>
                         <h2>Tools</h2>
-                            <p>Figma, Adobe XD, Adobe Illustrator, PowerDirector</p>
+                            <p>Figma, Adobe XD</p>
                         <h2>Deliverables</h2>
-                            <p><a class="link" href="" target="_blank" rel="noopener noreferrer">High-Fidelity Prototype</a></p>
+                            <p><a class="link" href="https://xd.adobe.com/view/742e3943-d5b0-48dc-a025-aff09b62ded3-217d/?fullscreen" target="_blank" rel="noopener noreferrer">High-Fidelity Prototype</a></p>
                             <p><a class="link" href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Product Video</a></p>
                     </div>
                 </div>
                 <div class="background">
+                <img class="asset" src="/img/Musicroom/Logo.png" alt="Image of Musicroom logo"></img>
                     <h1>Background</h1>
-                        <p>It is significantly more challenging to establish connections with college musicians for those who are not part of a music school, which can alienate other music enthusiasts pursuing careers in different fields. However, music plays a significant role in our lives, serving as a powerful motivator that brings people together.</p>
+                        <p>It is challenging to establish connections with college musicians for those who are not part of a music school, with other music enthusiasts dispersed across academic fields. However, music plays a significant role in our lives, serving as a powerful motivator that brings people together.</p>
                         <img class="asset" src="/img/Musicroom/Problem.png" alt="Image of problem area"></img>
                         <p>Many of the current music-sharing social media platforms suffer from oversaturation of posts, which limits exposure to potential collaborators or does not prioritize the primary demographic of college students. This leads to the following problem statement:</p>
                         <div class="hmw-statement">

@@ -11,7 +11,9 @@ function Moments() {
                             <h1 class="subtitle">An app for sharing and discovering music organically.</h1>
                         </div>
                         <div class="col-md-7 justify-content-center">
-                            <img class="asset" src="/img/Moments/Banner.GIF" alt="GIF of Moments preview screens"></img>
+                            <video autoplay loop muted controls playsinline preload="auto" class="asset">
+                                <source src="/img/Moments/Banner.mp4" type="video/mp4" alt="GIF of Moments preview screens"/>
+                            </video>
                         </div>
                     </div>
                 </div>

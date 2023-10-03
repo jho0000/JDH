@@ -11,7 +11,9 @@ function Musicroom() {
                             <h1 class="subtitle">A networking app for collaborating college musicians.</h1>
                         </div>
                         <div class="col-md-7 justify-content-center">
-                            <img class="asset" src="/img/Musicroom/Preview.gif" alt="GIF preview of Musicroom"></img>
+                            <video autoplay loop muted controls playsinline preload="auto" class="asset">
+                                <source src="/img/Musicroom/Banner.mp4" type="video/mp4" alt="GIF of Musicroom preview screens" />
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -138,6 +140,7 @@ function Musicroom() {
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
+                        <p>Test out MusicRoom here: <a class="link" href="https://xd.adobe.com/view/742e3943-d5b0-48dc-a025-aff09b62ded3-217d/?fullscreen" target="_blank" rel="noopener noreferrer">High-fidelity prototype</a></p>
                         <div className="d-flex justify-content-center">
                             <iframe width="800" height="450" src="https://www.youtube.com/embed/ifjUCkIiK2U?list=TLGGVrZYQ6rrPWcwMTEwMjAyMw" title="MusicRoom Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>

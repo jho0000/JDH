@@ -246,7 +246,7 @@ p.caption {
   padding-bottom: 1rem;
 }
 
-img.asset {
+img.asset, video.asset {
   display: block;
   max-width: 80%;
   margin-left: auto;

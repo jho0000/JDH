@@ -11,8 +11,10 @@ function Moments() {
                             <h1 class="subtitle">An app for sharing and discovering music organically.</h1>
                         </div>
                         <div class="col-md-7 justify-content-center">
-                            <video autoplay loop muted controls playsinline preload="auto" class="asset">
-                                <source src="/img/Moments/Banner.mp4" type="video/mp4" alt="GIF of Moments preview screens"/>
+                            <video src="/img/Moments/Banner.mp4" playsinline autoplay="true" muted loop controls class="asset" type="video/mp4" alt="GIF of Moments preview screens">
+                                <script>
+                                    document.getElementById('vid').play();
+                                </script>
                             </video>
                         </div>
                     </div>

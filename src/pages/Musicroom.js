@@ -11,9 +11,7 @@ function Musicroom() {
                             <h1 class="subtitle">A networking app for collaborating college musicians.</h1>
                         </div>
                         <div class="col-md-7 justify-content-center">
-                            <video autoplay loop muted controls playsinline preload="auto" class="asset">
-                                <source src="/img/Musicroom/Banner.mp4" type="video/mp4" alt="GIF of Musicroom preview screens" />
-                            </video>
+                            <video src="/img/Musicroom/Banner.mp4" playsinline autoplay="true" muted loop controls preload="auto" class="asset" type="video/mp4" alt="GIF of Musicroom preview screens"></video>
                         </div>
                     </div>
                 </div>

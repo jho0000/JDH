@@ -235,7 +235,7 @@ a.link {
 
 .home.card, .project.card {
   border: 4px solid #BABABA;
-  transition: border-color 0.25s ease-in;
+  transition: border-color 0.15s ease-in;
 }
 
 .home.card:hover, .project.card:hover {

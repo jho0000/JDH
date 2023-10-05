@@ -65,7 +65,7 @@ body {
   }
 
   a > img.logo {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
   ul.nav > li {
@@ -79,6 +79,19 @@ body {
     border-radius: 5%;
     border:transparent;
     margin-right: 1rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icons img {
+    padding: 0.25rem;
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -121,7 +134,7 @@ body {
   }
 
   a > img.logo {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
 
   ul.nav > li {
@@ -135,6 +148,14 @@ body {
     border:transparent;
     margin-right: 2rem;
   }
+  
+  .icons img {
+    padding: 0.5rem;
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 ul > li {
@@ -142,6 +163,30 @@ ul > li {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.25em;
   margin: 0.25rem;
+}
+
+/* Hover animations*/
+nav .hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color:black;
+}
+
+nav .hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #EB70FF;
+  transition: transform 0.25s ease-in-out;
+}
+
+nav .hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
 }
 
 a.link {
@@ -188,14 +233,18 @@ a.link {
   margin-bottom: auto;
 }
 
-.icon {
-  max-height: 60px;
-  max-width: 60px;
-  align-self: center;
+.home.card, .project.card {
+  border: 4px solid #BABABA;
+  transition: border-color 0.25s ease-in;
 }
 
-.home.card, .project.card, .about.card, .banner.card, .row > .card {
-  border: transparent;
+.home.card:hover, .project.card:hover {
+  border-color: black;
+  outline: 2px solid transparent;
+}
+
+.about.card{
+  border:transparent;
 }
 
 /* Footer */
@@ -204,19 +253,6 @@ a.link {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-}
-
-.icons img {
-  padding: 0.5rem;
-  width: 80px;
-  height: 80px;
-  max-width: 100%;
-  height: auto;
 }
 
 /* About Page */

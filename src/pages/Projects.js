@@ -54,7 +54,7 @@ function Projects () {
         </section>
         <section class="fullscreen d-flex align-items-center justify-content-center">
             <div class="col-9 col-sm-9 col-md-8 col-lg-9">
-                <h1 class="header text-center">Fun Figma Projects</h1>
+                <h1 class="header text-center">Figma Projects</h1>
                 <div class="row">
                     <div class="project card color-1 col-lg">
                     <a href="https://www.figma.com/proto/zvXVMxyWw5euylaqA0SWrH/INFO-498-E-Group-1-Comic?page-id=0%3A1&type=design&node-id=1-368&viewport=1143%2C396%2C0.04&t=CNJ8vqPoG3AFx7Ny-9&scaling=contain&starting-point-node-id=1%3A368&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">

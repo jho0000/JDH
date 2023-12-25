@@ -48,8 +48,9 @@ function Moments() {
                         <h2>Tools</h2>
                             <p>Figma, Illustrator, Expo Go, ReactJS, React Native, DaVinci Resolve</p>
                         <h2>Deliverables</h2>
-                            <p><a class="link" href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Video</a></p>
-                            <p><a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">App</a></p>
+                            <p><a class="link" href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Demo Video</a></p>
+                            <p><a class="link" href="https://www.yourmoments.app/" target="_blank" rel="noopener noreferrer">Website</a></p>
+                            {/* <p><a class="link" href="Website link here" target="_blank" rel="noopener noreferrer">App</a></p> */}
                     </div>
                 </div>
                 <div class="background">

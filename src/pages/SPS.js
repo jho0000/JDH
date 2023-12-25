@@ -135,15 +135,16 @@ function SPS() {
                 <div class="takeaways">
                     <h1>Takeaways</h1>
                         <p>This course introduced me to the importance of design systems and how they develop over time. Trial and error, time, and confidence lead to defining an applicative design system and deliverable.</p>
-                        <p>Even though I was familiar with the entire research process, it was challenging to incorporate organisational values and philosophy into visuals and ideas. The learning process felt steep, but motivated me into exploring plenty of design systems from websites and video games that I highly appreciate.</p>
-                        <img class="asset-caption" src="/img/SPS/Calendar.gif" alt="Walkthrough of remodeled About Us and Calendar page"></img>
-                        <p class="caption">Making a design system influenced by video games</p>
+                        <p>Even though I was familiar with the research process, being able to incorporate organisational values and philosophy into visuals and ideas was a new domain that I explored. The learning process felt steep, but it motivated me into exploring plenty of design systems from websites, video games, and branding guidelines that I found interesting from well-established applications and companies.</p>
+                        <div className="d-flex justify-content-center">
+                            <iframe src="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FO0K1mHys8KvdP0DSUlUJPt%2FRhythm-game%3Fpage-id%3D60%253A63%26type%3Ddesign%26node-id%3D340-10751%26viewport%3D912%252C334%252C0.05%26t%3DxVKi8xzHYcK1jdJm-1%26scaling%3Dscale-down%26starting-point-node-id%3D327%253A10541%26mode%3Ddesign" allowfullscreen></iframe>
+                        </div>
+                        <p class="caption">A project about design systems in <a class="link" href="https://www.figma.com/proto/O0K1mHys8KvdP0DSUlUJPt/Rhythm-game?page-id=60%3A63&type=design&node-id=112-1483&viewport=886%2C222%2C0.05&t=G2vso5JVKHaTAiqQ-9&scaling=scale-down&starting-point-node-id=112%3A1483&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">game development</a> and rhythm games.</p>
                         <p><b>Documentation</b> was a key concept I learned to make sure colours and text were being used appropriately, and even helped me personally in the making of <a class="link" href="https://jdho-545e4.web.app/projects/moments">Moments</a>. Having guidelines and clear descriptions records everything for any team member, old and new, to be on the same page. It also eases the handoffs to developers, giving structure and efficiency in the work involved.</p>
                         <p>Design systems are built off intentions to make pieces cohere with one another. It finds a balance between creativity and structure while incorporating feedback from users and outside perspectives. It is about <i>people</i>, understanding their problems, and getting people to adopt design systems as a result. </p>
                 </div>
                 <div class="conclusion">
                     <h1>Thanks for reading!</h1>
-                    <p>Check out the <a class="link" href="https://www.figma.com/proto/eJuw7abJWeGMeNAraDNfP2/John-Ho's-Portfolio?page-id=1416%3A6604&type=design&node-id=1421-7879&viewport=1164%2C123%2C0.21&t=UjaX1vtzGHHybVLj-1&scaling=scale-down&starting-point-node-id=1421%3A7879&mode=design" target="_blank" rel="noopener noreferrer">desktop prototype</a> and <a class="link" href="https://www.figma.com/proto/eJuw7abJWeGMeNAraDNfP2/John-Ho's-Portfolio?page-id=1416%3A5926&type=design&node-id=1425-9071&viewport=-1812%2C-775%2C0.3&t=kU32SwYd1O3BeeQ8-1&scaling=min-zoom&starting-point-node-id=1425%3A9071&mode=design" target="_blank" rel="noopener noreferrer">mobile prototype</a> here!</p>
                 </div>
             </section>
         </main>

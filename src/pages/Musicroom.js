@@ -43,7 +43,7 @@ function Musicroom() {
                             <p>Figma, Adobe XD</p>
                         <h2>Deliverables</h2>
                             <p><a class="link" href="https://xd.adobe.com/view/742e3943-d5b0-48dc-a025-aff09b62ded3-217d/?fullscreen" target="_blank" rel="noopener noreferrer">High-Fidelity Prototype</a></p>
-                            <p><a class="link" href="https://youtu.be/J7qUZrNtofc" target="_blank" rel="noopener noreferrer">Product Video</a></p>
+                            <p><a class="link" href="https://www.youtube.com/watch?v=ifjUCkIiK2U" target="_blank" rel="noopener noreferrer">Product Video</a></p>
                     </div>
                 </div>
                 <div class="background">
@@ -140,7 +140,7 @@ function Musicroom() {
                     <h1>Thanks for reading!</h1>
                         <p>Test out MusicRoom here: <a class="link" href="https://xd.adobe.com/view/742e3943-d5b0-48dc-a025-aff09b62ded3-217d/?fullscreen" target="_blank" rel="noopener noreferrer">High-fidelity prototype</a></p>
                         <div className="d-flex justify-content-center">
-                            <iframe width="800" height="450" src="https://www.youtube.com/embed/ifjUCkIiK2U?list=TLGGVrZYQ6rrPWcwMTEwMjAyMw" title="MusicRoom Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="800" height="450" src="https://www.youtube.com/embed/ifjUCkIiK2U?si=CdKzNV3T-dVUGyyj" title="MusicRoom Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                 </div>
             </section>

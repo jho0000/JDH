@@ -46,7 +46,7 @@ function SleepAndSee() {
                             <p>Figma, ReactJS, React Native</p>
                         <h2>Deliverables</h2>
                             <p><a class="link" href="https://info442-christmas.web.app" target="_blank" rel="noopener noreferrer">Website</a></p>
-                            <p><a class="link" href=" " target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+                            <p><a class="link" href="https://github.com/UW-INFO442-WI23/christmas" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
                     </div>
                 </div>
                 <div class="background">

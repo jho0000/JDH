@@ -44,6 +44,7 @@ function Scoolwise() {
                         <h2>Tools</h2>
                             <p>Miro, Dovetail, Figma</p>
                         <h2>Deliverables</h2>
+                            <p><a class="link" href="https://www.figma.com/proto/eJuw7abJWeGMeNAraDNfP2/John-Ho's-Portfolio?page-id=1364%3A1126&type=design&node-id=1364-1127&viewport=1604%2C1144%2C0.27&t=2BjutoojgQDwFf7U-9&scaling=scale-down&starting-point-node-id=1364%3A1127&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">Figma Prototype</a></p>
                             <p><a class="link" href="https://docs.google.com/document/d/1uzMRgFDW779csVB-afBExIdEgSxsqZgEqEwUxHVN6kE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Report</a></p>
                     </div>
                 </div>
@@ -144,7 +145,7 @@ function Scoolwise() {
             </div>
             <div class="conclusion">
                 <h1>Thanks for reading!</h1>
-                <p>Check out our full report <a class="link" href="https://docs.google.com/document/d/1uzMRgFDW779csVB-afBExIdEgSxsqZgEqEwUxHVN6kE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p> 
+                <p>Check out our full report with research and documentation <a class="link" href="https://docs.google.com/document/d/1uzMRgFDW779csVB-afBExIdEgSxsqZgEqEwUxHVN6kE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p> 
                 <p>Our interactive <a class="link" href="https://www.figma.com/proto/eJuw7abJWeGMeNAraDNfP2/Portfolio?page-id=1364%3A1126&type=design&node-id=1364-1127&viewport=554%2C444%2C0.08&t=uNnW4shFctOiBpa8-1&scaling=scale-down&starting-point-node-id=1364%3A1127&mode=design" target="_blank" rel="noopener noreferrer">Figma prototype</a>:</p>
                 <div className="d-flex justify-content-center">
                     <iframe src="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeJuw7abJWeGMeNAraDNfP2%2FPortfolio%3Fpage-id%3D1364%253A1126%26type%3Ddesign%26node-id%3D1364-1127%26viewport%3D554%252C444%252C0.08%26t%3DYRThHrJk5dPidGqm-1%26scaling%3Dscale-down%26starting-point-node-id%3D1364%253A1127%26mode%3Ddesign" allowfullscreen=""></iframe>
